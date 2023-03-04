@@ -41,6 +41,11 @@ header > div > button {
 }
 .left-hero > h1 {
   text-transform: capitalize;
+  font-size: 2.3em;
+  margin-bottom: -20px;
+}
+.left-hero>p {
+  line-height: 1.7em;
 }
 .primaryButton {
   padding: 15px 15px;
@@ -89,4 +94,64 @@ header > div > button {
 .bottom-features>div>button {
   width: 70%;
   margin: 0 auto 10px;
+}
+.mini-hero {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: space-between;
+}
+.mini-hero-main {
+  display: flex;
+}
+.left-mini-hero {
+  background: url("//unsplash.it/600/600");
+  width: 50%;
+  height: 500px;
+  background-repeat: none;
+  background-size: cover;
+  border-top-left-radius: 99px;
+}
+.right-mini-hero {
+  width: 50%;
+  padding: 20px 30px;
+}
+.right-mini-hero>h2 {
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  font-size: 2.2em;
+  width: 80%;
+  line-height: 1.3em;
+}
+.right-mini-hero>p {
+  line-height: 1.7em;
+}
+.mini-hero-overflow-div {
+  position: absolute;
+  display: flex;
+  width: 52%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c7a7ad4;
+  right: 20px;
+  bottom: 80px;
+}
+.mini-hero-overflow-div>div>p {
+  font-size: 0.7em;
+  padding-top: 4px;
+}
+.mini-hero-overflow-div>div {
+  width: 33%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.mini-hero-overflow-div>div:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }

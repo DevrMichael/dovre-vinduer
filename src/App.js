@@ -49,6 +49,35 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="mini-hero">
+        <div className="mini-hero-main">
+          <div className="left-mini-hero"></div>
+          <div className="right-mini-hero">
+            <h2>Best fashion since 2014</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              placeat, qui quia voluptate aliquid sit laboriosam obcaecati
+              aliquam reprehenderit, illo alias dignissimos nihil temporibus!
+              Error, dolores! Unde quis magni perferendis voluptatem quos
+              explicabo illum quisquam?
+            </p>
+          </div>
+        </div>
+        <div className="mini-hero-overflow-div">
+          <div>
+            <h3>2014</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div>
+            <h3>8900+</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+          <div>
+            <h3>3103+</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
