@@ -7,7 +7,7 @@ import window5 from './assets/GiljeWindows/toppsving-fast-12-innv-skraa.jpeg'
 
 
 
-const doors = [
+const windows = [
     {
       "image": window0,
       "title": "Avatar: The Way of Water",
@@ -40,4 +40,4 @@ const doors = [
     },
   ]
 
-  export default doors
+  export default windows
