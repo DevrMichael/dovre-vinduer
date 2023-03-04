@@ -169,3 +169,19 @@ text-align: center;
 padding: 20px 0 40px;
 text-transform: uppercase;
 }
+.window-types-section {
+list-style: none;
+width: 80%;
+margin: 70px auto 60px;
+}
+.window-types-section>h2 {
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.window-types-section>nav{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-decoration: underline;
+}
