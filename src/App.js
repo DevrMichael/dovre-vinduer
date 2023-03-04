@@ -1,5 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Slider } from "./slider";
+import slides from './door'
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
             <p>Lorem ipsum dolor sit.</p>
           </div>
         </div>
+      </div>
+      <div className="slider-container">
+        <h2>Our Doors</h2>
+      <Slider slides={slides}/>
       </div>
     </div>
   );
