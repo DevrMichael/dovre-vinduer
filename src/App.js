@@ -1,7 +1,7 @@
 import "./App.css";
 import { Slider } from "./slider";
 import slides from "./door";
-import windows from "./window"
+import windows from "./window";
 
 function App() {
   return (
@@ -116,6 +116,46 @@ function App() {
             <img src={windows[1].image} alt="" />
           </div>
         </div>
+        <div className="showroom-container">
+          <div className="hero">
+            <div className="left-showroom">
+              <h1>Our Showroom</h1>
+              <p>Our showroom is centrally located in Lørenskog.</p>
+            </div>
+            <div className="right-showroom">
+              <div className="homepage-map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9098922821365!2d10.72518285207197!3d59.91704278177933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416dd779ba357b%3A0x677038c9acc2591c!2sDet%20kongelige%20slott!5e0!3m2!1sno!2sno!4v1677587198537!5m2!1sno!2sno"
+                  title="map"
+                  width="600"
+                  height="450"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="footer-top">
+          <div className="footer-top-div"></div>
+          <div className="footer-top-div"></div>
+          <div className="footer-top-div"></div>
+          <div className="footer-top-div"></div>
+        </div>
+        <footer>
+          <div className="footer-nav">
+            <a href="">Hjem</a>
+            <a href="">Vinduer</a>
+            <a href="">Dører</a>
+            <a href="">Om Oss</a>
+            <a href="">Kontakt</a>
+          </div>
+          <div className="footer-info">
+            <p>Dovre Vinduer AS 1475 Finstadjordet</p>
+            <p>naeem@dovrevinduer.no +47 90 76 15 78</p>
+          </div>
+        </footer>
       </div>
     </div>
   );
