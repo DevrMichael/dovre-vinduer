@@ -1,7 +1,7 @@
 import "./App.css";
 import { Slider } from "./slider";
 import slides from "./door";
-import windows from "./window";
+import Windows from "./pages/Windows";
 
 function App() {
   return (
@@ -92,31 +92,7 @@ function App() {
           obcaecati cum doloremque quidem quibusdam.
         </p>
       </div>
-
-      <div className="window-container-nav">
-        <nav>
-          <li>Toppsving</li>
-          <li>Innadslående</li>
-          <li>Topp/sidehengslet</li>
-          <li>Fastkarm</li>
-          <li>Kombinasjon</li>
-          <li>Spesial</li>
-        </nav>
-        <div className="window-container">
-          <div className="window-text">
-            <h2>Best seller product</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequatur nobis perferendis sint consequuntur corporis! Numquam
-              debitis labore impedit quia facere nulla doloribus, neque illum
-              nihil, maiores, est eum commodi cum!
-            </p>
-            <button className="primaryButton">CTA Button</button>
-          </div>
-          <div className="window-image">
-            <img src={windows[1].image} alt="" />
-          </div>
-        </div>
+        <Windows />
         <div className="showroom-container">
           <div className="hero">
             <div className="left-showroom">
@@ -158,7 +134,6 @@ function App() {
           </div>
         </footer>
       </div>
-    </div>
   );
 }
 

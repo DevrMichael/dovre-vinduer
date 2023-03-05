@@ -223,21 +223,33 @@ height: 400px;
 .window-text>button {
 width: 50%;
 }
+.window-text>h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
 .window-container-nav {
   list-style: none;
   font-size: 0.8em;
-}
-.window-container-nav>nav {
-  cursor: pointer;
 }
 .window-container-nav>nav {
   display: flex;
   width: 70%;
   justify-content: center;
   margin: 20px auto -80px;
-  gap: 10px;
+  gap: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  cursor: pointer;
+}
+.window-container-nav>nav>button {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.underline {
+  text-decoration: underline;
+  font-weight: 600;
 }
 .left-showroom {
   display: flex;

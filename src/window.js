@@ -9,33 +9,45 @@ import window5 from './assets/GiljeWindows/toppsving-fast-12-innv-skraa.jpeg'
 
 const windows = [
     {
+      "id": 0,
       "image": window0,
-      "title": "Avatar: The Way of Water",
+      "title": "Topp/Sidehengslet Vindu",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
+      "id": 1,
       "image": window1,
-      "title": "Avatar: The Way of Water",
+      "title": "Fastkarmsvindu",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
+      "id": 2,
       "image": window2,
-      "title": "Avatar: The Way of Water",
+      "title": "Innadslående Vindu",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
+      "id": 3,
       "image": window3,
-      "title": "Avatar: The Way of Water",
+      "title": "Spesialvindu",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
+      "id": 4,
       "image": window4,
-      "title": "Avatar: The Way of Water",
+      "title": "Toppsvingsvindu",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
+      "id": 5,
       "image": window5,
-      "title": "Avatar: The Way of Water",
+      "title": "Kombinasjonsvindu",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
   ]
