@@ -9,7 +9,7 @@ function SpesialVindu() {
           <p>
             {windows[3].content}
           </p>
-          <button className="primaryButton">CTA Button</button>
+          <button className="primaryButton">Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[3].image} alt="" />

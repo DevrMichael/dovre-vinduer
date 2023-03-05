@@ -9,7 +9,7 @@ function KombinasjonVindu() {
           <p>
             {windows[5].content}
           </p>
-          <button className="primaryButton">CTA Button</button>
+          <button className="primaryButton">Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[5].image} alt="" />

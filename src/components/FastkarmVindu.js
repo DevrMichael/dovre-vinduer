@@ -9,7 +9,7 @@ function FastkarmVindu() {
           <p>
             {windows[1].content}
           </p>
-          <button className="primaryButton">CTA Button</button>
+          <button className="primaryButton">Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[1].image} alt="" />

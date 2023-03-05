@@ -9,7 +9,7 @@ function InnadslaendeVindu() {
           <p>
             {windows[2].content}
           </p>
-          <button className="primaryButton">CTA Button</button>
+          <button className="primaryButton">Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[2].image} alt="" />

@@ -9,7 +9,7 @@ function ToppSidehengsletVindu() {
           <p>
             {windows[0].content}
           </p>
-          <button className="primaryButton">CTA Button</button>
+          <button className="primaryButton">Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[0].image} alt="" />
