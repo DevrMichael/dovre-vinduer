@@ -29,7 +29,8 @@ function App() {
           </p>
           <button className="primaryButton">CTA Button</button>
         </div>
-        <div className="right-hero"></div>
+        <div className="right-hero">
+        </div>
       </div>
       <div className="features">
         <div className="top-features">
@@ -41,13 +42,13 @@ function App() {
         </div>
         <div className="bottom-features">
           <div>
-            <button className="primaryButton">Feature1</button>
+            <button className="primaryButton">Vinduer</button>
           </div>
           <div>
-            <button className="primaryButton">Feature2</button>
+            <button className="primaryButton">Dører</button>
           </div>
           <div>
-            <button className="primaryButton">Feature3</button>
+            <button className="primaryButton">Gilje Sense</button>
           </div>
         </div>
       </div>

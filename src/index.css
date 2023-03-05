@@ -57,7 +57,8 @@ header > div > button {
   text-align: center;
 }
 .right-hero {
-  background: url("//unsplash.it/600/600");
+  background-image: url("./assets/HomepageImages/hero-landscape.jpg");
+  background-position: center;
   width: 50%;
   height: 500px;
   background-repeat: none;
@@ -95,6 +96,19 @@ header > div > button {
   width: 70%;
   margin: 0 auto 10px;
 }
+.bottom-features>div:nth-child(1){
+  background-image: url("./assets/HomepageImages/feature-image-one.gif");
+  background-size: cover;
+}
+.bottom-features>div:nth-child(2){
+  background-image: url("./assets/HomepageImages/feature-image-two.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bottom-features>div:nth-child(3){
+  background-image: url("./assets/HomepageImages/feature-image-three.jpg");
+  background-size: cover;
+}
 .mini-hero {
   position: relative;
   width: 80%;
@@ -107,11 +121,12 @@ header > div > button {
   display: flex;
 }
 .left-mini-hero {
-  background: url("//unsplash.it/600/600");
+  background-image: url("./assets/HomepageImages/luxury-house-frontpage.jpg");
+  background-position: center;
+  background-size: cover;
   width: 50%;
   height: 500px;
   background-repeat: none;
-  background-size: cover;
   border-top-left-radius: 99px;
 }
 .right-mini-hero {
