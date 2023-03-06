@@ -2,6 +2,7 @@ import "./App.css";
 import { Slider } from "./slider";
 import slides from "./door";
 import Windows from "./pages/Windows";
+import React from 'react';
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
         <div>
           <a href="/">Hjem</a>
           <a href="/vinduer">Vinduer</a>
-          <a href="dorer">Dører</a>
-          <a href="omoss">Om Oss</a>
-          <a href="kontakt">Kontakt</a>
+          <a href="/dorer">Dører</a>
+          <a href="/omoss">Om Oss</a>
+          <a href="/kontakt">Kontakt</a>
         </div>
         <div>
           <button className="primaryButton">CTA Button</button>
@@ -122,11 +123,11 @@ function App() {
         </div>
         <footer>
           <div className="footer-nav">
-            <a href="">Hjem</a>
-            <a href="">Vinduer</a>
-            <a href="">Dører</a>
-            <a href="">Om Oss</a>
-            <a href="">Kontakt</a>
+            <a href="/">Hjem</a>
+            <a href="/vinduer">Vinduer</a>
+            <a href="/dorer">Dører</a>
+            <a href="/omoss">Om Oss</a>
+            <a href="/kontakt">Kontakt</a>
           </div>
           <div className="footer-info">
             <p>Dovre Vinduer AS 1475 Finstadjordet</p>

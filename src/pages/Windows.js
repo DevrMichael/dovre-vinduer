@@ -1,3 +1,4 @@
+import React from 'react';
 import ToppsvingVindu from "../components/ToppsvingVindu";
 import InnadslaendeVindu from "../components/InnadslaendeVindu";
 import { useState } from "react";

@@ -1,4 +1,5 @@
 import windows from "../window";
+import React from 'react';
 
 function InnadslaendeVindu() {
   return (

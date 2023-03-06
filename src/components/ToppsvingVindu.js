@@ -1,3 +1,4 @@
+import React from 'react';
 import windows from "../window";
 
 function ToppsvingVindu() {
