@@ -15,11 +15,11 @@ header {
 }
 header > div > a {
   padding: 0 12px;
-  text-decoration: none;
   text-transform: uppercase;
   color: black;
   letter-spacing: 2px;
   font-size: 0.8em;
+  text-decoration: none;
 }
 header > div > button {
   padding: 10px 20px;
