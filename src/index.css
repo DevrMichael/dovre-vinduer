@@ -340,7 +340,7 @@ footer {
   width: 80%;
   margin: auto;
 }
-.door-grid > img {
+.door-grid > a> img {
   width: 14%;
   margin: 10px;
 }
