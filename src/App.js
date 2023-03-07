@@ -6,6 +6,7 @@ import Door from "./pages/Door";
 import Window from "./pages/Window";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
+import DoorProduct from "./pages/DoorProduct";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dorer" element={<Door />} />
+          <Route path="/dorer/:doorId" element={<DoorProduct />} />
           <Route path="/vinduer" element={<Window />} />
           <Route path="/omoss" element={<AboutUs />} />
           <Route path="/kontakt" element={<Contact />} />
