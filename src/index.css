@@ -399,4 +399,35 @@ justify-content: space-between;
 .door-product-info>div>h3 {
   text-transform: uppercase;
 }
-
+/* CONTACT PAGE */
+.contact-form-container {
+margin: 70px 0;
+}
+.contact-form-container>h1 {
+  text-align: center;
+}
+.contact-form {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form>button {
+  width: 30%;
+  margin-top: 30px;
+  background-color: transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.contact-form>label {
+  padding-top: 25px;
+}
+.contact-form>input {
+  padding: 10px ;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+.contact-form>textarea {
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
