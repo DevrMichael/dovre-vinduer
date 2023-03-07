@@ -37,6 +37,7 @@ function Home() {
         <div className="right-hero">
         </div>
       </div>
+      <div className="features-background">
       <div className="features">
         <div className="top-features">
           <h2>New Collection</h2>
@@ -56,6 +57,7 @@ function Home() {
             <button className="secondaryButton" onClick={redirectGilje}>Gilje Sense</button>
           </div>
         </div>
+      </div>
       </div>
       <div className="mini-hero">
         <div className="mini-hero-main">

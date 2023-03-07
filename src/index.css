@@ -100,6 +100,7 @@ header > div > button {
   justify-content: flex-end;
   width: 33%;
   background-color: lightgrey;
+  margin-bottom: 40px;
 }
 .bottom-features > div > button {
   width: 70%;
@@ -117,6 +118,9 @@ header > div > button {
 .bottom-features > div:nth-child(3) {
   background-image: url("./assets/HomepageImages/feature-image-three.jpg");
   background-size: cover;
+}
+.features-background {
+  background-color: #d3d3d3;
 }
 .mini-hero {
   position: relative;
