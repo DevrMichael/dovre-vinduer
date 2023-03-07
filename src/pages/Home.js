@@ -30,13 +30,13 @@ function Home() {
         </div>
         <div className="bottom-features">
           <div>
-            <button className="primaryButton">Vinduer</button>
+            <button className="secondaryButton">Vinduer</button>
           </div>
           <div>
-            <button className="primaryButton">Dører</button>
+            <button className="secondaryButton">Dører</button>
           </div>
           <div>
-            <button className="primaryButton">Gilje Sense</button>
+            <button className="secondaryButton">Gilje Sense</button>
           </div>
         </div>
       </div>

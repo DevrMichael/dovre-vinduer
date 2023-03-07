@@ -56,6 +56,15 @@ header > div > button {
   cursor: pointer;
   text-align: center;
 }
+.secondaryButton{
+  padding: 15px 15px;
+  background-color: darkgoldenrod;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
 .right-hero {
   background-image: url("./assets/HomepageImages/hero-landscape.jpg");
   background-position: center;
