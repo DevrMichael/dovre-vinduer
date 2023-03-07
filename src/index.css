@@ -407,7 +407,7 @@ margin: 70px 0;
   text-align: center;
 }
 .contact-form {
-  width: 40%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -423,11 +423,26 @@ margin: 70px 0;
   padding-top: 25px;
 }
 .contact-form>input {
-  padding: 10px ;
+  padding: 10px;
   border-radius: 3px;
   border: 1px solid lightgray;
 }
 .contact-form>textarea {
   border-radius: 3px;
   border: 1px solid lightgray;
+}
+.contact-form-background {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+.contact-form-container {
+  width: 100%;
+}
+.contact-form-image {
+  width: 60%;
+  margin: 60px 0;
+  background: url(//unsplash.it/500/500);
+  background-size: cover;
+  border-bottom-right-radius: 120px;
 }

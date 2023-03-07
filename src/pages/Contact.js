@@ -2,6 +2,10 @@ import React from 'react'
 
 function Contact() {
   return (
+    <div className='contact-form-background'>
+      <div className='contact-form-image'>
+
+      </div>
     <div className='contact-form-container'>
       <h1>Contact Us</h1>
       <form className='contact-form'>
@@ -13,6 +17,7 @@ function Contact() {
         <textarea name="textarea" id="" cols="30" rows="10"></textarea>
         <button>Send Message</button>
       </form>
+    </div>
     </div>
   )
 }
