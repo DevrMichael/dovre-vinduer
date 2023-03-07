@@ -14,7 +14,9 @@ function App() {
     <div>
       <main>
         <header>
-          <div>Logo</div>
+          <div className="logo">
+            Dovrevinduer
+          </div>
           <div>
             <a href="/">
               <Link style={{color: 'black', textDecoration: 'none'}} to="/">Home</Link>
