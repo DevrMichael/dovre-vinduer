@@ -1,10 +1,27 @@
 import React from 'react'
 import "../App.css";
+import { useNavigate } from "react-router-dom";
 import { Slider } from "../slider";
 import slides from "../door";
 import Windows from "../pages/Windows";
 
 function Home() {
+  let navigate = useNavigate(); 
+  const redirectGilje = () =>{ 
+    let path = `/omoss`; 
+    navigate(path);
+    window.scrollTo(0, 0)
+  }
+  const redirectVinduer = () =>{ 
+    let path = `/vinduer`; 
+    navigate(path);
+    window.scrollTo(0, 0)
+  }
+  const redirectDorer = () =>{ 
+    let path = `/dorer`; 
+    navigate(path);
+    window.scrollTo(0, 0)
+  }
   return (
     <div>
       <div className="hero">
@@ -30,13 +47,13 @@ function Home() {
         </div>
         <div className="bottom-features">
           <div>
-            <button className="secondaryButton">Vinduer</button>
+            <button className="secondaryButton" onClick={redirectVinduer}>Vinduer</button>
           </div>
           <div>
-            <button className="secondaryButton">Dører</button>
+            <button className="secondaryButton" onClick={redirectDorer}>Dører</button>
           </div>
           <div>
-            <button className="secondaryButton">Gilje Sense</button>
+            <button className="secondaryButton" onClick={redirectGilje}>Gilje Sense</button>
           </div>
         </div>
       </div>
