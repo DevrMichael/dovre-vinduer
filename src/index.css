@@ -368,3 +368,28 @@ footer {
 .window-grid>div>p {
   text-align: center;
 }
+/* DOOR SINGLE PRODUCT PAGE*/
+.door-product-container {
+display: flex;
+width: 80%;
+margin: 80px auto;
+justify-content: space-between;
+}
+.door-product-image {
+  width: 35%;
+  background-color: white;
+}
+.door-product-image>img {
+  display: flex;
+  margin: 20px auto;
+}
+.door-product-info {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.door-product-info>div>h3 {
+  text-transform: uppercase;
+}
+
