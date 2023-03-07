@@ -9,42 +9,42 @@ import window5 from './assets/GiljeWindows/toppsving-fast-12-innv-skraa.jpeg'
 
 const windows = [
     {
-      "id": 0,
+      "id": 1,
       "image": window0,
       "title": "Topp/Sidehengslet Vindu",
       "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
-      "id": 1,
+      "id": 2,
       "image": window1,
       "title": "Fastkarmsvindu",
       "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
-      "id": 2,
+      "id": 3,
       "image": window2,
       "title": "Innadslående Vindu",
       "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
-      "id": 3,
+      "id": 4,
       "image": window3,
       "title": "Spesialvindu",
       "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
-      "id": 4,
+      "id": 5,
       "image": window4,
       "title": "Toppsvingsvindu",
       "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
       "interval": 1500
     },
     {
-      "id": 5,
+      "id": 6,
       "image": window5,
       "title": "Kombinasjonsvindu",
       "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",

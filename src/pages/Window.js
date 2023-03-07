@@ -20,11 +20,12 @@ function Window() {
         {windows.map((window) => (
           <div>
             <p>{window.title}</p>
-          <img src={window.image} />
+            <a href={"/vinduer/" + window.id}>
+              <img src={window.image} alt="window" />
+            </a>
           </div>
         ))}
       </div>
-
     </div>
   );
 }

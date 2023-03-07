@@ -7,6 +7,7 @@ import Window from "./pages/Window";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import DoorProduct from "./pages/DoorProduct";
+import WindowProduct from "./pages/WindowProduct"
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/dorer" element={<Door />} />
           <Route path="/dorer/:doorId" element={<DoorProduct />} />
           <Route path="/vinduer" element={<Window />} />
+          <Route path="/vinduer/:windowId" element={<WindowProduct />} />
           <Route path="/omoss" element={<AboutUs />} />
           <Route path="/kontakt" element={<Contact />} />
         </Routes>

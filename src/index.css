@@ -358,7 +358,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.window-grid > div > img {
+.window-grid > div > a> img {
   width: 100%;
   padding: 50px 0;
 }
