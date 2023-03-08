@@ -374,6 +374,9 @@ footer {
 }
 .window-grid>div>p {
   text-align: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 /* DOOR SINGLE PRODUCT PAGE*/
 .door-product-container {
