@@ -113,9 +113,9 @@ function Home() {
                   title="map"
                   width="600"
                   height="450"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>

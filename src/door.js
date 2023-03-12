@@ -17,8 +17,6 @@ import door15 from './assets/GiljeDoors/ytterdor-doris-fire-glass-hvitncs-s-0502
 import door16 from './assets/GiljeDoors/ytterdor-eir-glass-asymmetrisk-rodral3009-gilje.jpeg'
 import door17 from './assets/GiljeDoors/ytterdor-eugenia-katedral-glass-hvitncs-s-0502y-gilje.jpeg'
 import door18 from './assets/GiljeDoors/ytterdor-faerder-glass-blaancs-s-4040-r90b-sjoboddor-gilje.jpeg'
-import door19 from './assets/GiljeDoors/ytterdor-faerder-hvitncs-s-0502y-gilje.jpeg'
-import door20 from './assets/GiljeDoors/ytterdor-faerder-glass-blaancs-s-4040-r90b-sjoboddor-gilje.jpeg'
 import door21 from './assets/GiljeDoors/ytterdor-faerder-hvitncs-s-0502y-gilje.jpeg'
 import door22 from './assets/GiljeDoors/ytterdor-gaia-glassdor-hvitncs-s-0502y-populaer-gilje.jpeg'
 import door23 from './assets/GiljeDoors/ytterdor-hades-glass-rodral3009-gilje.jpeg'
@@ -172,18 +170,6 @@ const doors = [
     {
       "id": 19,
       "image": door18,
-      "title": "Avatar: The Way of Water",
-      "interval": 1500
-    },
-    {
-      "id": 20,
-      "image": door19,
-      "title": "Avatar: The Way of Water",
-      "interval": 1500
-    },
-    {
-      "id": 21,
-      "image": door20,
       "title": "Avatar: The Way of Water",
       "interval": 1500
     },
