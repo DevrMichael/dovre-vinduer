@@ -18,7 +18,7 @@ function Window() {
       </div>
       <div className="window-grid">
         {windows.map((window) => (
-          <div>
+          <div key={window.id}>
             <p>{window.title}</p>
             <a href={"/vinduer/" + window.id}>
               <img src={window.image} alt="window" />

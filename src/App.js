@@ -18,21 +18,11 @@ function App() {
             Dovrevinduer
           </div>
           <div>
-            <a href="/">
               <Link style={{color: 'black', textDecoration: 'none'}} to="/">Home</Link>
-            </a>
-            <a href="/vinduer">
               <Link style={{color: 'black', textDecoration: 'none'}} to="/vinduer">Vinduer</Link>
-            </a>
-            <a href="/dorer">
               <Link style={{color: 'black', textDecoration: 'none'}} to="/dorer">Dører</Link>
-            </a>
-            <a href="/omoss">
               <Link style={{color: 'black', textDecoration: 'none'}} to="/omoss">Om oss</Link>
-            </a>
-            <a href="/kontakt">
               <Link style={{color: 'black', textDecoration: 'none'}} to="/kontakt">Kontakt</Link>
-            </a>
           </div>
           <div>
             <button className="primaryButton">CTA Button</button>
