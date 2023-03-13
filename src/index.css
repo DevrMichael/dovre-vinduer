@@ -449,3 +449,38 @@ margin: 70px 0;
   background-size: cover;
   border-bottom-right-radius: 120px;
 }
+.about-us__container-hero {
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+  width: 100%;
+}
+.about-us__container-hero>.left-hero {
+  padding-left: 50px;
+  justify-content: center;
+  gap: 30px;
+}
+.about-us__container>div>h1,
+.about-us__container>div>p {
+text-align: center;
+}
+.about-us__container>h1 {
+  text-transform: capitalize;
+}
+.about-us__right-hero {
+  background-image: url("./assets/HomepageImages/hero-landscape.jpg");
+  background-position: center;
+  width: 50%;
+  height: 500px;
+  background-repeat: none;
+  background-size: cover;
+  border-bottom-left-radius: 99px; 
+}
+.about-us__intro-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d3d3d3;
+  height: 400px;
+  padding: 20px 0;
+}
