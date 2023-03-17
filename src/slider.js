@@ -9,7 +9,7 @@ export const Slider = ({ slides }) => {
     <Swiper
       modules={[Navigation, Pagination]}
       spaceBetween={0}
-      slidesPerView={4}
+      slidesPerView={5}
       navigation
       pagination={{ clickable: true }}
     >
