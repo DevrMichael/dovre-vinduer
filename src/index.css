@@ -91,6 +91,7 @@ header > div > button {
 }
 .top-features > h2 {
   padding: 10px 0;
+  text-transform: uppercase;
 }
 .bottom-features {
   display: flex;
@@ -177,13 +178,15 @@ header > div > button {
 .mini-hero-overflow-div > div > p {
   font-size: 0.7em;
   padding-top: 4px;
+  width: 80%;
+margin: auto;
 }
 .mini-hero-overflow-div > div {
   width: 33%;
   height: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 .mini-hero-overflow-div > div:nth-child(2) {
@@ -228,10 +231,9 @@ header > div > button {
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  margin-bottom: 60px;
   text-align: center;
-}
-.window-container-header > h2 {
-  margin: 20px 0;
+  background-color: rgba(255, 255, 136, 0.68);
 }
 .window-text {
   display: flex;
@@ -250,6 +252,9 @@ header > div > button {
 .window-container-nav {
   list-style: none;
   font-size: 0.8em;
+}
+.window-container-nav > h2 {
+  text-align: center;
 }
 .window-container-nav > nav {
   display: flex;
