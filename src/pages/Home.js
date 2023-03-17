@@ -68,7 +68,7 @@ function Home() {
           <div className="right-mini-hero">
             <h2>Hvem er vi?</h2>
             <p>
-              Med over 20 års erfaring i bransjen hjelper vi deg med å skreddersy løsninger
+              Med over 30 års erfaring i bransjen hjelper vi deg med å skreddersy løsninger
               tilpasset deg, og dine prosjekters behov. Vi tilbyr et bredt utvalg av vinduer og dører som passer for alle og enhver.
             </p>
           </div>
