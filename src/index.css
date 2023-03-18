@@ -278,6 +278,15 @@ margin: auto;
   text-decoration: underline;
   font-weight: 600;
 }
+.showroom-container {
+  background-color: #AEC2B6;
+}
+.showroom-hero {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
 .left-showroom {
   display: flex;
   flex-direction: column;
