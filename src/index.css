@@ -314,6 +314,7 @@ margin: auto;
 .footer-top-div {
   width: 25%;
   height: 100%;
+  margin-top: 2px;
 }
 .footer-top-div:nth-child(odd) {
   background-color: #94AF9F;
