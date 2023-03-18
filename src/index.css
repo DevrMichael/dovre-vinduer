@@ -132,6 +132,7 @@ header > div > button {
 }
 .features-background {
   background-color: #94AF9F;
+  height: 85vh;
 }
 .mini-hero {
   position: relative;
@@ -213,6 +214,7 @@ margin: auto;
 }
 .window-container {
   width: 100%;
+  height: 85vh;
   margin: 40px auto;
   padding: 90px 10px;
   display: flex;
