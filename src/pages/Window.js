@@ -9,8 +9,7 @@ function Window() {
           <div className="door-intro-text">
             <h1>Vinduer</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam
-              reiciendis quo quaerat quas!
+              Klikk for å lese mer om de ulike vindustypene vi tilbyr under.
             </p>
           </div>
           <div className="window-intro-image"></div>

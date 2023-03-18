@@ -5,7 +5,7 @@ function AboutUs() {
     <div className="about-us__container">
       <div className="about-us__intro-background">
         <h1>Om Oss</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Vår lidenskap er å levere høykvalitets vinduer og dører til alle våre kunder.</p>
       </div>
       <div className="about-us__container-hero">
         <div className="left-hero">

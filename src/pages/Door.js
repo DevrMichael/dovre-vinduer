@@ -9,8 +9,7 @@ function Door() {
           <div className="door-intro-text">
             <h1>Dører</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam
-              reiciendis quo quaerat quas!
+              Vi har over 50 ulike dørstyper av høy kvalitet. Klikk på dørene under for å få mer informasjon.
             </p>
           </div>
           <div className="door-intro-image"></div>
