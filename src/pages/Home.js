@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { Slider } from "../slider";
 import slides from "../door";
 import Windows from "../pages/Windows";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   let navigate = useNavigate();
@@ -28,7 +30,9 @@ function Home() {
         <div className="left-hero">
           <h1>Find the best fashion style for you</h1>
           <p>
-          Riktig valg av dører og vinduer til hjemmet spiller en essensiell rolle i øking av trivsel, trygghet og velvære. Der kan vi hjelpe deg.
+            Riktig valg av dører og vinduer til hjemmet spiller en essensiell
+            rolle i øking av trivsel, trygghet og velvære. Der kan vi hjelpe
+            deg.
           </p>
           <button className="primaryButton">CTA Button</button>
         </div>
@@ -68,8 +72,10 @@ function Home() {
           <div className="right-mini-hero">
             <h2>Hvem er vi?</h2>
             <p>
-              Med over 30 års erfaring i bransjen hjelper vi deg med å skreddersy løsninger
-              tilpasset deg, og dine prosjekters behov. Vi tilbyr et bredt utvalg av vinduer og dører som passer for alle og enhver.
+              Med over 30 års erfaring i bransjen hjelper vi deg med å
+              skreddersy løsninger tilpasset deg, og dine prosjekters behov. Vi
+              tilbyr et bredt utvalg av vinduer og dører som passer for alle og
+              enhver.
             </p>
           </div>
         </div>
@@ -93,8 +99,10 @@ function Home() {
         <Slider slides={slides} />
       </div>
       <div className="window-container-header">
+        <FontAwesomeIcon icon={faInfoCircle} /> <br />
         <p>
-        Visste du at du kan spare stort på strømregningen KUN ved å bytte ut enkelte av dine vinduer?
+          Visste du at du kan spare stort på strømregningen KUN ved å bytte ut
+          enkelte av dine vinduer?
         </p>
       </div>
       <Windows />
@@ -107,13 +115,13 @@ function Home() {
           <div className="right-showroom">
             <div className="homepage-map-container">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9098922821365!2d10.72518285207197!3d59.91704278177933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416dd779ba357b%3A0x677038c9acc2591c!2sDet%20kongelige%20slott!5e0!3m2!1sno!2sno!4v1677587198537!5m2!1sno!2sno"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7999.16456601887!2d10.963038206870166!3d59.919013545974245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464164c394b6a437%3A0x88feb36d7b578051!2zU8O4cmxpLCAxNDczIEzDuHJlbnNrb2csIE5vcmdl!5e0!3m2!1sno!2sus!4v1679138144514!5m2!1sno!2sus"
                 title="map"
                 width="600"
-                height="450"
-                allowFullScreen=""
+                height="600"
+                allowfullscreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
