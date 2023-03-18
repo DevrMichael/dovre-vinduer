@@ -81,6 +81,9 @@ header > div > button {
   background-size: cover;
   border-bottom-left-radius: 99px;
 }
+.features {
+  color: white;
+}
 .top-features {
   display: flex;
   flex-direction: column;
@@ -128,7 +131,7 @@ header > div > button {
   background-size: cover;
 }
 .features-background {
-  background-color: #AEC2B6;
+  background-color: #94AF9F;
 }
 .mini-hero {
   position: relative;
@@ -171,7 +174,8 @@ header > div > button {
   height: 120px;
   justify-content: center;
   align-items: center;
-  background-color: #aec2b6e1;
+  background-color: #94af9ff9;
+  color: white;
   right: 20px;
   bottom: 80px;
 }
@@ -213,7 +217,8 @@ margin: auto;
   padding: 90px 10px;
   display: flex;
   flex-direction: row;
-  background-color: #AEC2B6;
+  background-color: #94AF9F;
+  color: white;
 }
 .window-container > div {
   width: 40%;
@@ -273,13 +278,16 @@ margin: auto;
   background-color: transparent;
   text-transform: uppercase;
   font-size: 1.1em;
+  color: white;
+  letter-spacing: 1px;
 }
 .underline {
   text-decoration: underline;
   font-weight: 600;
 }
 .showroom-container {
-  background-color: #AEC2B6;
+  background-color: #94AF9F;
+  color: white;
 }
 .showroom-hero {
   display: flex;
@@ -306,7 +314,7 @@ margin: auto;
   height: 100%;
 }
 .footer-top-div:nth-child(odd) {
-  background-color: #AEC2B6
+  background-color: #94AF9F;
 }
 .footer-top-div:nth-child(even) {
   background-color: aliceblue;
@@ -335,7 +343,8 @@ footer {
 
 /* DOOR PAGE */
 .door-intro-background {
-  background-color: #AEC2B6;
+  background-color: #94AF9F;
+  color: white;
   padding: 20px 0;
   margin-bottom: 50px;
 }
@@ -496,7 +505,8 @@ text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #AEC2B6;
+  background-color: #94AF9F;
+  color: white;
   height: 400px;
   padding: 20px 0;
 }
