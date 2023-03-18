@@ -128,7 +128,7 @@ header > div > button {
   background-size: cover;
 }
 .features-background {
-  background-color: #d3d3d3;
+  background-color: #AEC2B6;
 }
 .mini-hero {
   position: relative;
@@ -171,7 +171,7 @@ header > div > button {
   height: 120px;
   justify-content: center;
   align-items: center;
-  background-color: #7c7a7ad4;
+  background-color: #aec2b6e1;
   right: 20px;
   bottom: 80px;
 }
@@ -213,7 +213,7 @@ margin: auto;
   padding: 90px 10px;
   display: flex;
   flex-direction: row;
-  background-color: #d3d3d3;
+  background-color: #AEC2B6;
 }
 .window-container > div {
   width: 40%;
@@ -226,7 +226,7 @@ margin: auto;
 }
 .window-container-header {
   height: 200px;
-  width: 80%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -234,6 +234,8 @@ margin: auto;
   margin-bottom: 60px;
   text-align: center;
   background-color: rgba(255, 255, 136, 0.68);
+  font-style: italic;
+  font-weight: bold;
 }
 .window-text {
   display: flex;
@@ -295,7 +297,7 @@ margin: auto;
   height: 100%;
 }
 .footer-top-div:nth-child(odd) {
-  background-color: #d3d3d3;
+  background-color: #AEC2B6
 }
 .footer-top-div:nth-child(even) {
   background-color: aliceblue;
@@ -324,7 +326,7 @@ footer {
 
 /* DOOR PAGE */
 .door-intro-background {
-  background-color: #d3d3d3;
+  background-color: #AEC2B6;
   padding: 20px 0;
   margin-bottom: 50px;
 }
@@ -485,7 +487,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #d3d3d3;
+  background-color: #AEC2B6;
   height: 400px;
   padding: 20px 0;
 }
