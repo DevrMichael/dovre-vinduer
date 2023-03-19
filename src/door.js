@@ -62,355 +62,355 @@ const doors = [
     {
       "id": 1,
       "image": door0,
-      "title": "Avatar: The Way of Water",
+      "title": "Røros Glass",
       "interval": 1500
     },
     {
       "id": 2,
       "image": door1,
-      "title": "Avatar: The Way of Water",
+      "title": "Trym",
       "interval": 1500
     },
     {
       "id": 3,
       "image": door2,
-      "title": "Avatar: The Way of Water",
+      "title": "Urd",
       "interval": 1500
     },
     {
       "id": 4,
       "image": door3,
-      "title": "Avatar: The Way of Water",
+      "title": "Afrodite",
       "interval": 1500
     },
     {
       "id": 5,
       "image": door4,
-      "title": "Avatar: The Way of Water",
+      "title": "André",
       "interval": 1500
     },
     {
       "id": 6,
       "image": door5,
-      "title": "Avatar: The Way of Water",
+      "title": "Atlas",
       "interval": 1500
     },
     {
       "id": 7,
       "image": door6,
-      "title": "Avatar: The Way of Water",
+      "title": "Brage",
       "interval": 1500
     },
     {
       "id": 8,
       "image": door7,
-      "title": "Avatar: The Way of Water",
+      "title": "Continental",
       "interval": 1500
     },
     {
       "id": 9,
       "image": door8,
-      "title": "Avatar: The Way of Water",
+      "title": "Dionysos",
       "interval": 1500
     },
     {
       "id": 10,
       "image": door9,
-      "title": "Avatar: The Way of Water",
+      "title": "Dirdal dekor tett",
       "interval": 1500
     },
     {
       "id": 11,
       "image": door10,
-      "title": "Avatar: The Way of Water",
+      "title": "Dirdal dekor glass 2-fløyet",
       "interval": 1500
     },
     {
       "id": 12,
       "image": door11,
-      "title": "Avatar: The Way of Water",
+      "title": "Dirdal dekor glass",
       "interval": 1500
     },
     {
       "id": 13,
       "image": door12,
-      "title": "Avatar: The Way of Water",
+      "title": "Dirdal profil glass",
       "interval": 1500
     },
     {
       "id": 14,
       "image": door13,
-      "title": "Avatar: The Way of Water",
+      "title": "Dirdal profil tett",
       "interval": 1500
     },
     {
       "id": 15,
       "image": door14,
-      "title": "Avatar: The Way of Water",
+      "title": "Dole",
       "interval": 1500
     },
     {
       "id": 16,
       "image": door15,
-      "title": "Avatar: The Way of Water",
+      "title": "Doris",
       "interval": 1500
     },
     {
       "id": 17,
       "image": door16,
-      "title": "Avatar: The Way of Water",
+      "title": "Eir",
       "interval": 1500
     },
     {
       "id": 18,
       "image": door17,
-      "title": "Avatar: The Way of Water",
+      "title": "Eugenia",
       "interval": 1500
     },
     {
       "id": 19,
       "image": door18,
-      "title": "Avatar: The Way of Water",
+      "title": "Færder glass",
       "interval": 1500
     },
     {
       "id": 22,
       "image": door21,
-      "title": "Avatar: The Way of Water",
+      "title": "Færder tett",
       "interval": 1500
     },
     {
       "id": 23,
       "image": door22,
-      "title": "Avatar: The Way of Water",
+      "title": "Gaia",
       "interval": 1500
     },
     {
       "id": 24,
       "image": door23,
-      "title": "Avatar: The Way of Water",
+      "title": "Hades",
       "interval": 1500
     },
     {
       "id": 25,
       "image": door24,
-      "title": "Avatar: The Way of Water",
+      "title": "Halden",
       "interval": 1500
     },
     {
       "id": 26,
       "image": door25,
-      "title": "Avatar: The Way of Water",
+      "title": "Hebe",
       "interval": 1500
     },
     {
       "id": 27,
       "image": door26,
-      "title": "Avatar: The Way of Water",
+      "title": "Hefaitos",
       "interval": 1500
     },
     {
       "id": 28,
       "image": door27,
-      "title": "Avatar: The Way of Water",
+      "title": "Helena",
       "interval": 1500
     },
     {
       "id": 29,
       "image": door28,
-      "title": "Avatar: The Way of Water",
+      "title": "Helios",
       "interval": 1500
     },
     {
       "id": 30,
       "image": door29,
-      "title": "Avatar: The Way of Water",
+      "title": "Helle",
       "interval": 1500
     },
     {
       "id": 31,
       "image": door30,
-      "title": "Avatar: The Way of Water",
+      "title": "Herakles",
       "interval": 1500
     },
     {
       "id": 32,
       "image": door31,
-      "title": "Avatar: The Way of Water",
+      "title": "Hermes",
       "interval": 1500
     },
     {
       "id": 33,
       "image": door32,
-      "title": "Avatar: The Way of Water",
+      "title": "Hestia",
       "interval": 1500
     },
     {
       "id": 34,
       "image": door33,
-      "title": "Avatar: The Way of Water",
+      "title": "Hovden",
       "interval": 1500
     },
     {
       "id": 35,
       "image": door34,
-      "title": "Avatar: The Way of Water",
+      "title": "Kassandra",
       "interval": 1500
     },
     {
       "id": 36,
       "image": door35,
-      "title": "Avatar: The Way of Water",
+      "title": "Kristian",
       "interval": 1500
     },
     {
       "id": 37,
       "image": door36,
-      "title": "Avatar: The Way of Water",
+      "title": "Linda",
       "interval": 1500
     },
     {
       "id": 38,
       "image": door37,
-      "title": "Avatar: The Way of Water",
+      "title": "Lista",
       "interval": 1500
     },
     {
       "id": 39,
       "image": door38,
-      "title": "Avatar: The Way of Water",
+      "title": "Lund glass",
       "interval": 1500
     },
     {
       "id": 40,
       "image": door39,
-      "title": "Avatar: The Way of Water",
+      "title": "Lund tett",
       "interval": 1500
     },
     {
       "id": 41,
       "image": door40,
-      "title": "Avatar: The Way of Water",
+      "title": "Martha",
       "interval": 1500
     },
     {
       "id": 42,
       "image": door41,
-      "title": "Avatar: The Way of Water",
+      "title": "Maud",
       "interval": 1500
     },
     {
       "id": 43,
       "image": door42,
-      "title": "Avatar: The Way of Water",
+      "title": "Odin",
       "interval": 1500
     },
     {
       "id": 44,
       "image": door43,
-      "title": "Avatar: The Way of Water",
+      "title": "Ole",
       "interval": 1500
     },
     {
       "id": 45,
       "image": door44,
-      "title": "Avatar: The Way of Water",
+      "title": "Orion",
       "interval": 1500
     },
     {
       "id": 46,
       "image": door45,
-      "title": "Avatar: The Way of Water",
+      "title": "Phoebe",
       "interval": 1500
     },
     {
       "id": 47,
       "image": door46,
-      "title": "Avatar: The Way of Water",
+      "title": "Richard",
       "interval": 1500
     },
     {
       "id": 48,
       "image": door47,
-      "title": "Avatar: The Way of Water",
+      "title": "Røros tett",
       "interval": 1500
     },
     {
       "id": 49,
       "image": door48,
-      "title": "Avatar: The Way of Water",
+      "title": "Sailor",
       "interval": 1500
     },
     {
       "id": 50,
       "image": door49,
-      "title": "Avatar: The Way of Water",
+      "title": "Sirdal dekor tett",
       "interval": 1500
     },
     {
       "id": 51,
       "image": door50,
-      "title": "Avatar: The Way of Water",
+      "title": "Sirdal profil tett",
       "interval": 1500
     },
     {
       "id": 52,
       "image": door51,
-      "title": "Avatar: The Way of Water",
+      "title": "Sirdal profil glass",
       "interval": 1500
     },
     {
       "id": 53,
       "image": door52,
-      "title": "Avatar: The Way of Water",
+      "title": "Sirdal profil glass 2-fløyet",
       "interval": 1500
     },
     {
       "id": 54,
       "image": door53,
-      "title": "Avatar: The Way of Water",
+      "title": "Sol",
       "interval": 1500
     },
     {
       "id": 55,
       "image": door54,
-      "title": "Avatar: The Way of Water",
+      "title": "Solveig tett",
       "interval": 1500
     },
     {
       "id": 56,
       "image": door55,
-      "title": "Avatar: The Way of Water",
+      "title": "Solveig glass",
       "interval": 1500
     },
     {
       "id": 57,
       "image": door56,
-      "title": "Avatar: The Way of Water",
+      "title": "Standard",
       "interval": 1500
     },
     {
       "id": 58,
       "image": door57,
-      "title": "Avatar: The Way of Water",
+      "title": "Themis",
       "interval": 1500
     },
     {
       "id": 59,
       "image": door58,
-      "title": "Avatar: The Way of Water",
+      "title": "Tor",
       "interval": 1500
     },
     {
       "id": 60,
       "image": door59,
-      "title": "Avatar: The Way of Water",
+      "title": "Uranus",
       "interval": 1500
     },
     {
       "id": 61,
       "image": door60,
-      "title": "Avatar: The Way of Water",
+      "title": "Zeus",
       "interval": 1500
     },
   ]

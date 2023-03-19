@@ -10,6 +10,7 @@ function DoorProduct() {
     <div className="door-product-background">
       <div className="door-product-container">
         <div className="door-product-image">
+          <h2>{door.title}</h2>
           <img src={door.image} alt="" />
         </div>
         <div className="door-product-info">

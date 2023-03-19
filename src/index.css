@@ -423,8 +423,13 @@ footer {
   justify-content: space-between;
 }
 .door-product-image {
-  width: 35%;
+  width: 55%;
+  margin: auto;
   background-color: white;
+}
+.door-product-image>h2 {
+  text-transform: uppercase;
+  text-align: center;
 }
 .door-product-image > img {
   display: flex;
