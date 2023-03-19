@@ -14,31 +14,27 @@ function DoorProduct() {
         </div>
         <div className="door-product-info">
           <div>
-            <h3>Door info 1</h3>
+            <h3>Kvalitet</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Blanditiis, totam?
+              Giljes ytterdører er produsert for å tåle et skiftende norsk klima, og ikke minst hard bruk.
             </p>
           </div>
           <div>
-            <h3>Door info 2</h3>
+            <h3>Kompaktlaminat</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-              sit?
+              Kompaktlaminat er standard på alle våre ytterdører.
             </p>
           </div>
           <div>
-            <h3>Door info 3</h3>
+            <h3>Bredde</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-              eaque!
+              Våre dører kan leveres inntil 129 cm bredde for enkeltdører og 239 cm bredde for to-fløyede dører.
             </p>
           </div>
           <div>
-            <h3>Door info 4</h3>
+            <h3>Høyde</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
-              illo.
+              Høyde kan leveres inntil 239 cm.
             </p>
           </div>
         </div>

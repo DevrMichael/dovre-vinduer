@@ -40,7 +40,8 @@ const windows = [
       "id": 5,
       "image": window4,
       "title": "Toppsvingsvindu",
-      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nobis perferendis sint consequuntur corporis! Numquam debitis labore impedit quia facere nulla doloribus, neque illum nihil, maiores, est eum commodi cum!",
+      "content": "Vinduer med Toppsving er enkelt og praktisk ved vasking og lufting fordi vinduet kan vendes 180 grader horisontalt uten at det kommer inn i rommet.",
+      "page-content": "Vinduet har luftestilling og barnesikringsmekanisme. Produktet produseres etter spesialmål og standardmål, og kan også leveres som kombinasjonsvindu med fast og toppsving i én karm, samt med sprosser i mange varianter.",
       "interval": 1500
     },
     {

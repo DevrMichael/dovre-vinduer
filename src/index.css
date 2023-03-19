@@ -27,7 +27,7 @@ header > div > button {
   border: none;
   border-radius: 3px;
 }
-.logo{
+.logo {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.1em;
@@ -63,7 +63,7 @@ header > div > button {
   cursor: pointer;
   text-align: center;
 }
-.secondaryButton{
+.secondaryButton {
   padding: 15px 15px;
   background-color: darkgoldenrod;
   color: white;
@@ -131,7 +131,7 @@ header > div > button {
   background-size: cover;
 }
 .features-background {
-  background-color: #94AF9F;
+  background-color: #94af9f;
   height: 85vh;
 }
 .mini-hero {
@@ -184,7 +184,7 @@ header > div > button {
   font-size: 0.7em;
   padding-top: 4px;
   width: 80%;
-margin: auto;
+  margin: auto;
 }
 .mini-hero-overflow-div > div {
   width: 33%;
@@ -219,7 +219,7 @@ margin: auto;
   padding: 90px 10px;
   display: flex;
   flex-direction: row;
-  background-color: #94AF9F;
+  background-color: #94af9f;
   color: white;
 }
 .window-container > div {
@@ -291,7 +291,7 @@ margin: auto;
   font-weight: 600;
 }
 .showroom-container {
-  background-color: #94AF9F;
+  background-color: #94af9f;
   color: white;
 }
 .showroom-hero {
@@ -320,7 +320,7 @@ margin: auto;
   margin-top: 2px;
 }
 .footer-top-div:nth-child(odd) {
-  background-color: #94AF9F;
+  background-color: #94af9f;
 }
 .footer-top-div:nth-child(even) {
   background-color: aliceblue;
@@ -346,10 +346,13 @@ footer {
 .footer-info > p {
   padding: 5px;
 }
+.footer-info > p > a {
+  color: white;
+}
 
 /* DOOR PAGE */
 .door-intro-background {
-  background-color: #94AF9F;
+  background-color: #94af9f;
   color: white;
   padding: 20px 0;
   margin-bottom: 50px;
@@ -378,7 +381,7 @@ footer {
   width: 80%;
   margin: auto;
 }
-.door-grid > a> img {
+.door-grid > a > img {
   width: 14%;
   margin: 10px;
 }
@@ -396,31 +399,34 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.window-grid > div > a> img {
+.window-grid > div > a > img {
   width: 100%;
   padding: 50px 0;
 }
 .window-grid > div {
   width: 33%;
 }
-.window-grid>div>p {
+.window-grid > div > p {
   text-align: center;
   font-size: 0.8em;
   text-transform: uppercase;
   font-weight: 500;
 }
+.window-product-info {
+  width: 50%;
+}
 /* DOOR SINGLE PRODUCT PAGE*/
 .door-product-container {
-display: flex;
-width: 80%;
-margin: 80px auto;
-justify-content: space-between;
+  display: flex;
+  width: 80%;
+  margin: 80px auto;
+  justify-content: space-between;
 }
 .door-product-image {
   width: 35%;
   background-color: white;
 }
-.door-product-image>img {
+.door-product-image > img {
   display: flex;
   margin: 20px auto;
 }
@@ -430,15 +436,23 @@ justify-content: space-between;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-.door-product-info>div>h3 {
+.door-product-info > div > h3 {
   text-transform: uppercase;
+  margin-bottom: 9px;
 }
 /* CONTACT PAGE */
 .contact-form-container {
-margin: 70px 0;
+  width: 70%;
+  height: 50vh;
+  margin: 70px 0;
 }
-.contact-form-container>h1 {
+.contact-form-container > h1 {
   text-align: center;
+  margin-bottom: 20px;
+}
+.contact-form-container>p {
+  width: 80%;
+  margin: auto;
 }
 .contact-form {
   width: 80%;
@@ -446,22 +460,22 @@ margin: 70px 0;
   display: flex;
   flex-direction: column;
 }
-.contact-form>button {
+.contact-form > button {
   width: 40%;
   margin-top: 30px;
   background-color: transparent;
   padding: 10px 20px;
   cursor: pointer;
 }
-.contact-form>label {
+.contact-form > label {
   padding-top: 25px;
 }
-.contact-form>input {
+.contact-form > input {
   padding: 10px;
   border-radius: 3px;
   border: 1px solid lightgray;
 }
-.contact-form>textarea {
+.contact-form > textarea {
   border-radius: 3px;
   border: 1px solid lightgray;
 }
@@ -469,9 +483,7 @@ margin: 70px 0;
   display: flex;
   margin: auto;
   width: 80%;
-}
-.contact-form-container {
-  width: 100%;
+  gap: 20px;
 }
 .contact-form-image {
   width: 60%;
@@ -486,16 +498,16 @@ margin: 70px 0;
   justify-content: space-between;
   width: 100%;
 }
-.about-us__container-hero>.left-hero {
+.about-us__container-hero > .left-hero {
   padding-left: 50px;
   justify-content: center;
   gap: 30px;
 }
-.about-us__container>div>h1,
-.about-us__container>div>p {
-text-align: center;
+.about-us__container > div > h1,
+.about-us__container > div > p {
+  text-align: center;
 }
-.about-us__container>h1 {
+.about-us__container > h1 {
   text-transform: capitalize;
 }
 .about-us__right-hero {
@@ -505,13 +517,13 @@ text-align: center;
   height: 500px;
   background-repeat: none;
   background-size: cover;
-  border-bottom-left-radius: 99px; 
+  border-bottom-left-radius: 99px;
 }
 .about-us__intro-background {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #94AF9F;
+  background-color: #94af9f;
   color: white;
   height: 400px;
   padding: 20px 0;

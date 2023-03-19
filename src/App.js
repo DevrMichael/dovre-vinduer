@@ -7,25 +7,46 @@ import Window from "./pages/Window";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import DoorProduct from "./pages/DoorProduct";
-import WindowProduct from "./pages/WindowProduct"
+import WindowProduct from "./pages/WindowProduct";
 
 function App() {
   return (
     <div>
       <main>
         <header>
-          <div className="logo">
-            Dovrevinduer
+          <div className="logo">Dovrevinduer</div>
+          <div>
+            <Link style={{ color: "black", textDecoration: "none" }} to="/">
+              Home
+            </Link>
+            <Link
+              style={{ color: "black", textDecoration: "none" }}
+              to="/vinduer"
+            >
+              Vinduer
+            </Link>
+            <Link
+              style={{ color: "black", textDecoration: "none" }}
+              to="/dorer"
+            >
+              Dører
+            </Link>
+            <Link
+              style={{ color: "black", textDecoration: "none" }}
+              to="/omoss"
+            >
+              Om oss
+            </Link>
           </div>
           <div>
-              <Link style={{color: 'black', textDecoration: 'none'}} to="/">Home</Link>
-              <Link style={{color: 'black', textDecoration: 'none'}} to="/vinduer">Vinduer</Link>
-              <Link style={{color: 'black', textDecoration: 'none'}} to="/dorer">Dører</Link>
-              <Link style={{color: 'black', textDecoration: 'none'}} to="/omoss">Om oss</Link>
-              <Link style={{color: 'black', textDecoration: 'none'}} to="/kontakt">Kontakt</Link>
-          </div>
-          <div>
-            <button className="primaryButton">CTA Button</button>
+            <button className="primaryButton">
+              <Link
+                style={{ color: "white", textDecoration: "none" }}
+                to="/kontakt"
+              >
+                Kontakt
+              </Link>
+            </button>
           </div>
         </header>
         <Routes>
@@ -53,7 +74,7 @@ function App() {
           </div>
           <div className="footer-info">
             <p>Dovre Vinduer AS 1475 Finstadjordet</p>
-            <p>naeem@dovrevinduer.no +47 90 76 15 78</p>
+            <p><a href="mailto:naeem@dovrevinduer.no">naeem@dovrevinduer.no</a> +47 90 76 15 78</p>
           </div>
         </footer>
       </main>

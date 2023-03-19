@@ -27,11 +27,9 @@ function AboutUs() {
       </div>
       <div className="about-us__container-hero">
         <div className="left-hero">
-          <h1>Our process</h1>
+          <h1>Ta kontakt</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-            saepe fuga quidem error quae ducimus eaque. Sint voluptatem libero
-            ullam.
+            Ta kontakt med oss i dag for mer utfyllende informasjon om våre produkter og tjenester. Send oss en mail ved å klikke <a href="mailto:naeem@dovrevinduer.no">her</a> eller ring oss på tlf nr. 90 76 15 78.
           </p>
         </div>
         <div className="right-hero"></div>
