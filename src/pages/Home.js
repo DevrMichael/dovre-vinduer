@@ -33,7 +33,7 @@ function Home() {
     <div>
       <div className="hero">
         <div className="left-hero">
-          <h1>Find the best fashion style for you</h1>
+          <h1>Vi Skaper et Godt fundament for hjemmet</h1>
           <p>
             Riktig valg av dører og vinduer til hjemmet spiller en essensiell
             rolle i øking av trivsel, trygghet og velvære. Der kan vi hjelpe
