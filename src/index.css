@@ -491,10 +491,11 @@ footer {
   gap: 20px;
 }
 .contact-form-image {
-  width: 60%;
+  width: 70%;
   margin: 60px 0;
-  background: url(//unsplash.it/500/500);
+  background-image: url("./assets/ContactUsImages/kontakt-oss.jpg");
   background-size: cover;
+  background-position: center;
   border-bottom-right-radius: 120px;
 }
 .about-us__container-hero {
@@ -516,7 +517,25 @@ footer {
   text-transform: capitalize;
 }
 .about-us__right-hero {
-  background-image: url("./assets/HomepageImages/hero-landscape.jpg");
+  background-image: url("./assets/AboutUsImages/om-oss1.jpg");
+  background-position: center;
+  width: 50%;
+  height: 500px;
+  background-repeat: none;
+  background-size: cover;
+  border-bottom-left-radius: 99px;
+}
+.about-us__left-hero {
+  background-image: url("./assets/AboutUsImages/om-oss2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  background-repeat: none;
+  border-top-left-radius: 99px;
+}
+.about-us__right-hero-second {
+  background-image: url("./assets/AboutUsImages/om-oss3.gif");
   background-position: center;
   width: 50%;
   height: 500px;

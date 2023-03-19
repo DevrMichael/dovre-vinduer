@@ -17,7 +17,7 @@ function AboutUs() {
         <div className="about-us__right-hero"></div>
       </div>
       <div className="mini-hero-main">
-        <div className="left-mini-hero"></div>
+        <div className="about-us__left-hero"></div>
         <div className="right-mini-hero">
           <h2>Vår Visjon</h2>
           <p>
@@ -32,7 +32,7 @@ function AboutUs() {
             Ta kontakt med oss i dag for mer utfyllende informasjon om våre produkter og tjenester. Send oss en mail ved å klikke <a href="mailto:naeem@dovrevinduer.no">her</a> eller ring oss på tlf nr. 90 76 15 78.
           </p>
         </div>
-        <div className="right-hero"></div>
+        <div className="about-us__right-hero-second"></div>
       </div>
     </div>
   );
