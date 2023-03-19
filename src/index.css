@@ -415,6 +415,9 @@ footer {
 .window-product-info {
   width: 50%;
 }
+.window-product-info>div>p {
+  line-height: 30px;
+}
 /* DOOR SINGLE PRODUCT PAGE*/
 .door-product-container {
   display: flex;
