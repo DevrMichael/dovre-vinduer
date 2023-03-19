@@ -1,7 +1,14 @@
 import React from 'react';
 import windows from "../window";
+import { useNavigate } from 'react-router-dom';
 
 function ToppsvingVindu() {
+  let navigate = useNavigate();
+  const redirectToppsving= () => {
+    let path = `/vinduer/5`;
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="window-container-nav">
       <div className="window-container">
@@ -10,7 +17,7 @@ function ToppsvingVindu() {
           <p>
             {windows[4].content}
           </p>
-          <button className="primaryButton">Les Mer</button>
+          <button className="primaryButton" onClick={redirectToppsving}>Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[4].image} alt="" />

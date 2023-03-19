@@ -1,7 +1,14 @@
 import windows from "../window";
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 function FastkarmVindu() {
+  let navigate = useNavigate();
+  const redirectFastkarm= () => {
+    let path = `/vinduer/2`;
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="window-container-nav">
       <div className="window-container">
@@ -10,7 +17,7 @@ function FastkarmVindu() {
           <p>
             {windows[1].content}
           </p>
-          <button className="primaryButton">Les Mer</button>
+          <button className="primaryButton" onClick={redirectFastkarm}>Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[1].image} alt="" />

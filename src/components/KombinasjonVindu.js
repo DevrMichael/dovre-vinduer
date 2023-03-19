@@ -1,7 +1,14 @@
 import windows from "../window";
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 function KombinasjonVindu() {
+  let navigate = useNavigate();
+  const redirectKombinasjon= () => {
+    let path = `/vinduer/6`;
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="window-container-nav">
       <div className="window-container">
@@ -10,7 +17,7 @@ function KombinasjonVindu() {
           <p>
             {windows[5].content}
           </p>
-          <button className="primaryButton">Les Mer</button>
+          <button className="primaryButton" onClick={redirectKombinasjon}>Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[5].image} alt="" />

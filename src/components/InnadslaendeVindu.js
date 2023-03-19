@@ -1,7 +1,14 @@
 import windows from "../window";
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 function InnadslaendeVindu() {
+  let navigate = useNavigate();
+  const redirectInnadslaende= () => {
+    let path = `/vinduer/3`;
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="window-container-nav">
       <div className="window-container">
@@ -10,7 +17,7 @@ function InnadslaendeVindu() {
           <p>
             {windows[2].content}
           </p>
-          <button className="primaryButton">Les Mer</button>
+          <button className="primaryButton" onClick={redirectInnadslaende}>Les Mer</button>
         </div>
         <div className="window-image">
           <img src={windows[2].image} alt="" />
