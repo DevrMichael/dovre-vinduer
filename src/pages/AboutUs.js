@@ -29,7 +29,7 @@ function AboutUs() {
         <div className="left-hero">
           <h1>Ta kontakt</h1>
           <p>
-            Ta kontakt med oss i dag for mer utfyllende informasjon om våre produkter og tjenester. Send oss en mail ved å klikke <a href="mailto:naeem@dovrevinduer.no">her</a> eller ring oss på tlf nr. 90 76 15 78.
+            Ta kontakt med oss i dag for mer utfyllende informasjon om våre produkter og tjenester. Send oss en mail på <a href="mailto:naeem@dovrevinduer.no">naeem@dovrevinduer.no</a> eller ring oss på tlf nr. 90 76 15 78.
           </p>
         </div>
         <div className="about-us__right-hero-second"></div>
