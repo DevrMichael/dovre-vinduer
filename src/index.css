@@ -437,12 +437,14 @@ footer {
 .door-product-image > img {
   display: flex;
   margin: 20px auto;
+  width: 30%;
 }
 .door-product-info {
   width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  align-items: center;
 }
 .door-product-info > div > h3 {
   text-transform: uppercase;
