@@ -39,7 +39,7 @@ function Home() {
             rolle i øking av trivsel, trygghet og velvære. Der kan vi hjelpe
             deg.
           </p>
-          <button className="primaryButton" onClick={redirectKontakt}>Kontakt Oss</button>
+          {/* <button className="primaryButton" onClick={redirectKontakt}>Kontakt Oss</button> */}
         </div>
         <div className="right-hero"></div>
       </div>
@@ -98,13 +98,13 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="window-container-header">
+      {/* <div className="window-container-header">
         <FontAwesomeIcon icon={faInfoCircle} /> <br />
         <p>
           Visste du at du kan spare stort på strømregningen KUN ved å bytte ut
           enkelte av dine vinduer?
         </p>
-      </div>
+      </div> */}
       <Windows />
       <div className="slider-container">
         <h2>Dører</h2>
