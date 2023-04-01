@@ -24,11 +24,11 @@ function Home() {
     navigate(path);
     window.scrollTo(0, 0);
   };
-  const redirectKontakt = () => {
-    let path = `/kontakt`;
-    navigate(path);
-    window.scrollTo(0, 0);
-  };
+  // const redirectKontakt = () => {
+  //   let path = `/kontakt`;
+  //   navigate(path);
+  //   window.scrollTo(0, 0);
+  // };
   return (
     <div>
       <div className="hero">
