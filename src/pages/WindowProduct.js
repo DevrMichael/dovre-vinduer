@@ -2,14 +2,14 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import windows from "../window";
 
-function DoorProduct() {
+function WindowProduct() {
   const { windowId } = useParams();
   const window = windows.find((door) => door.id === parseInt(windowId));
 
   return (
-    <div className="door-product-background">
-    <div className="door-product-container">
-      <div className="door-product-image">
+    <div>
+    <div className="window-product-container">
+      <div className="window-product-image">
         <img src={window.image} alt="" />
       </div>
       <div className="window-product-info">
@@ -28,4 +28,4 @@ function DoorProduct() {
   );
 }
 
-export default DoorProduct;
+export default WindowProduct;
