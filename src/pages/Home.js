@@ -10,7 +10,7 @@ import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   let navigate = useNavigate();
   const redirectGilje = () => {
-    let path = `/omoss`;
+    let path = `/gilje-sense`;
     navigate(path);
     window.scrollTo(0, 0);
   };

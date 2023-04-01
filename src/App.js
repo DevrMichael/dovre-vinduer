@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import DoorProduct from "./pages/DoorProduct";
 import WindowProduct from "./pages/WindowProduct";
+import GiljeSense from "./pages/GiljeSense";
 
 function App() {
   return (
@@ -33,6 +34,12 @@ function App() {
             </Link>
             <Link
               style={{ color: "black", textDecoration: "none" }}
+              to="/gilje-sense"
+            >
+              Gilje Sense
+            </Link>
+            <Link
+              style={{ color: "black", textDecoration: "none" }}
               to="/omoss"
             >
               Om oss
@@ -55,6 +62,7 @@ function App() {
           <Route path="/dorer/:doorId" element={<DoorProduct />} />
           <Route path="/vinduer" element={<Window />} />
           <Route path="/vinduer/:windowId" element={<WindowProduct />} />
+          <Route path="/gilje-sense" element={<GiljeSense />} />
           <Route path="/omoss" element={<AboutUs />} />
           <Route path="/kontakt" element={<Contact />} />
         </Routes>
