@@ -288,6 +288,9 @@ header > div > button {
 }
 .underline {
   text-decoration: underline;
+}
+
+.bolded {
   font-weight: 600;
 }
 .showroom-container {

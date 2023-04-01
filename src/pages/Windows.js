@@ -13,12 +13,12 @@ const [activeWindowCard, setActiveWindowCard] = useState(0)
   return (
     <div className="window-container-nav">
       <nav>
-        <button className={`${activeWindowCard === 0 ? "underline" : ""}`} onClick={() => setActiveWindowCard(0)}>Toppsving</button>
-        <button className={`${activeWindowCard === 1 ? "underline" : ""}`} onClick={() => setActiveWindowCard(1)}>Innadslående</button>
-        <button className={`${activeWindowCard === 2 ? "underline" : ""}`} onClick={() => setActiveWindowCard(2)}>Topp/sidehengslet</button>
-        <button className={`${activeWindowCard === 3 ? "underline" : ""}`} onClick={() => setActiveWindowCard(3)}>Fastkarm</button>
-        <button className={`${activeWindowCard === 4 ? "underline" : ""}`} onClick={() => setActiveWindowCard(4)}>Kombinasjon</button>
-        <button className={`${activeWindowCard === 5 ? "underline" : ""}`} onClick={() => setActiveWindowCard(5)}>Spesial</button>
+        <button className={`underline ${activeWindowCard === 0 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(0)}>Toppsving</button>
+        <button className={`underline ${activeWindowCard === 1 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(1)}>Innadslående</button>
+        <button className={`underline ${activeWindowCard === 2 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(2)}>Topp/sidehengslet</button>
+        <button className={`underline ${activeWindowCard === 3 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(3)}>Fastkarm</button>
+        <button className={`underline ${activeWindowCard === 4 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(4)}>Kombinasjon</button>
+        <button className={`underline ${activeWindowCard === 5 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(5)}>Spesial</button>
       </nav>
       {activeWindowCard === 0 && <ToppsvingVindu />}
       {activeWindowCard === 1 && <InnadslaendeVindu />}
