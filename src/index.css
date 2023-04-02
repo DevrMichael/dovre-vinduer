@@ -201,6 +201,7 @@ header > div > button {
 .doorImage {
   width: 130px;
   height: 300px;
+  margin-bottom: 35px;
 }
 .slider-container {
   width: 80%;
