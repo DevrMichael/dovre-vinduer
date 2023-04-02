@@ -36,20 +36,20 @@ header > div > button {
 }
 .hero {
   display: flex;
-  width: 80%;
+  width: 85%;
   margin: 30px auto;
   justify-content: space-between;
 }
 .left-hero {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  margin: auto 0;
   width: 40%;
 }
 .left-hero > h1 {
   text-transform: capitalize;
   font-size: 2em;
-  margin-bottom: -20px;
+  margin-bottom: 60px;
 }
 .left-hero > p {
   line-height: 1.7em;

@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { Slider } from "../slider";
 import slides from "../door";
 import Windows from "../pages/Windows";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   let navigate = useNavigate();
