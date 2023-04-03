@@ -132,7 +132,7 @@ header > div > button {
 }
 .features-background {
   background-color: #94af9f;
-  height: 85vh;
+  min-height: 85vh;
 }
 .mini-hero {
   position: relative;
@@ -610,4 +610,126 @@ display: flex;
   background-repeat: none;
   background-size: cover;
   border-bottom-left-radius: 99px;
+}
+@media only screen and (max-width: 768px) {
+  * {
+    max-width: 100%;
+  }
+  header { 
+    display: none;
+  }
+  .hero {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  .left-hero {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  .left-hero > h1 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .left-hero > p {
+    padding: 0 10px 10px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 90%;
+    margin: auto;
+  }
+  .right-hero {
+    display: block;
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 0;
+  }
+.features-background {
+    margin: -30px 0 0 0;
+  }
+.features {
+display: inline-block;
+}
+.top-features {
+  width: 90%;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 40px auto;
+  padding: 0;
+}
+.bottom-features {
+  display: inline-block;
+  width: 100%;
+}
+.bottom-features > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  min-width: 100%;
+  justify-content: flex-end;
+  width: 33%;
+  background-color: lightgrey;
+  margin-bottom: 40px;
+}
+.bottom-features > div > button {
+  width: 70%;
+  margin: 0 auto 10px;
+}
+.mini-hero-main {
+  display: block;
+}
+.mini-hero {
+  width: 100%;
+  padding: unset;
+}
+.left-mini-hero, .right-mini-hero {
+  width: 100%;
+  border-top-left-radius: 0;
+}
+.mini-hero-overflow-div {
+  position: unset;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+.window-container-nav {
+  display: none;
+}
+.slider-container {
+display: none;
+}
+.showroom-hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.left-showroom {
+  padding-top: 40px;
+text-align: center;
+}
+footer {
+  height: 250px;
+  color: white;
+  background-color: darkslategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.footer-nav {
+font-size: 14px;
+text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-nav > a {
+  padding: 0 10px;
+}
+.footer-info {
+  font-size: 14px;
+}
 }
