@@ -73,7 +73,7 @@ header > div > button {
   text-align: center;
 }
 .right-hero {
-  background-image: url("./assets/HomepageImages/hero-landscape.jpg");
+  background-image: url("../assets/HomepageImages/hero-landscape.jpg");
   background-position: center;
   width: 50%;
   height: 500px;
@@ -118,16 +118,16 @@ header > div > button {
   margin: 0 auto 10px;
 }
 .bottom-features > div:nth-child(1) {
-  background-image: url("./assets/HomepageImages/feature-image-one.gif");
+  background-image: url("../assets/HomepageImages/feature-image-one.gif");
   background-size: cover;
 }
 .bottom-features > div:nth-child(2) {
-  background-image: url("./assets/HomepageImages/feature-image-two.jpg");
+  background-image: url("../assets/HomepageImages/feature-image-two.jpg");
   background-position: center;
   background-size: cover;
 }
 .bottom-features > div:nth-child(3) {
-  background-image: url("./assets/HomepageImages/feature-image-three.jpg");
+  background-image: url("../assets/HomepageImages/feature-image-three.jpg");
   background-size: cover;
 }
 .features-background {
@@ -146,7 +146,7 @@ header > div > button {
   display: flex;
 }
 .left-mini-hero {
-  background-image: url("./assets/HomepageImages/luxury-house-frontpage.jpg");
+  background-image: url("../assets/HomepageImages/luxury-house-frontpage.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -377,7 +377,7 @@ footer {
 .door-intro-image {
   width: 60%;
   height: 300px;
-  background-image: url(./assets/GiljeDoors/doors-page-hero.jpg);
+  background-image: url(../assets/GiljeDoors/doors-page-hero.jpg);
   background-size: 130%;
   background-position: center;
 }
@@ -392,7 +392,7 @@ footer {
 .window-intro-image {
   width: 60%;
   height: 300px;
-  background-image: url(./assets/GiljeWindows/window-page-hero.gif);
+  background-image: url(../assets/GiljeWindows/window-page-hero.gif);
   background-size: 140%;
   background-position: center;
 }
@@ -521,7 +521,7 @@ footer {
 .contact-form-image {
   width: 70%;
   margin: 60px 0;
-  background-image: url("./assets/ContactUsImages/kontakt-oss.jpg");
+  background-image: url("../assets/ContactUsImages/kontakt-oss.jpg");
   background-size: cover;
   background-position: center;
   border-bottom-right-radius: 120px;
@@ -545,7 +545,7 @@ footer {
   text-transform: capitalize;
 }
 .about-us__right-hero {
-  background-image: url("./assets/AboutUsImages/om-oss1.jpg");
+  background-image: url("../assets/AboutUsImages/om-oss1.jpg");
   background-position: center;
   width: 50%;
   height: 500px;
@@ -554,7 +554,7 @@ footer {
   border-bottom-left-radius: 99px;
 }
 .about-us__left-hero {
-  background-image: url("./assets/AboutUsImages/om-oss2.jpg");
+  background-image: url("../assets/AboutUsImages/om-oss2.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -563,7 +563,7 @@ footer {
   border-top-left-radius: 99px;
 }
 .about-us__right-hero-second {
-  background-image: url("./assets/AboutUsImages/om-oss3.gif");
+  background-image: url("../assets/AboutUsImages/om-oss3.gif");
   background-position: center;
   width: 50%;
   height: 500px;
@@ -584,7 +584,7 @@ footer {
 .gilje-sense_intro-image {
   width: 80%;
   height: 330px;
-  background-image: url(./assets/GiljeSenseImages/gilje-sense-mobile.jpeg);
+  background-image: url("../assets/GiljeSenseImages/gilje-sense-mobile.jpeg");
   background-repeat: no-repeat;
   background-position: center
 }
