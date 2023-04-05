@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import windows from "../window";
+import windows from "../data/window";
 
 function WindowProduct() {
   const { windowId } = useParams();

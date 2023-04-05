@@ -1,9 +1,9 @@
-import window0 from './assets/GiljeWindows/2rams-sideh-12-innv.jpeg'
-import window1 from './assets/GiljeWindows/gilje-fast-karm.png'
-import window2 from './assets/GiljeWindows/inn-extra-innv-luftestilling-1.jpeg'
-import window3 from './assets/GiljeWindows/skraa-12-innvul.jpeg'
-import window4 from './assets/GiljeWindows/toppsving-extra-innv-skraa.jpeg'
-import window5 from './assets/GiljeWindows/toppsving-fast-12-innv-skraa.jpeg'
+import window0 from '../assets/GiljeWindows/2rams-sideh-12-innv.jpeg'
+import window1 from '../assets/GiljeWindows/gilje-fast-karm.png'
+import window2 from '../assets/GiljeWindows/inn-extra-innv-luftestilling-1.jpeg'
+import window3 from '../assets/GiljeWindows/skraa-12-innvul.jpeg'
+import window4 from '../assets/GiljeWindows/toppsving-extra-innv-skraa.jpeg'
+import window5 from '../assets/GiljeWindows/toppsving-fast-12-innv-skraa.jpeg'
 
 
 

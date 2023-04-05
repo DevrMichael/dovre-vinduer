@@ -73,7 +73,7 @@ header > div > button {
   text-align: center;
 }
 .right-hero {
-  background-image: url("./assets/HomepageImages/hero-landscape.jpg");
+  background-image: url("../assets/HomepageImages/hero-landscape.jpg");
   background-position: center;
   width: 50%;
   height: 500px;
@@ -118,16 +118,16 @@ header > div > button {
   margin: 0 auto 10px;
 }
 .bottom-features > div:nth-child(1) {
-  background-image: url("./assets/HomepageImages/feature-image-one.gif");
+  background-image: url("../assets/HomepageImages/feature-image-one.gif");
   background-size: cover;
 }
 .bottom-features > div:nth-child(2) {
-  background-image: url("./assets/HomepageImages/feature-image-two.jpg");
+  background-image: url("../assets/HomepageImages/feature-image-two.jpg");
   background-position: center;
   background-size: cover;
 }
 .bottom-features > div:nth-child(3) {
-  background-image: url("./assets/HomepageImages/feature-image-three.jpg");
+  background-image: url("../assets/HomepageImages/feature-image-three.jpg");
   background-size: cover;
 }
 .features-background {
@@ -146,7 +146,7 @@ header > div > button {
   display: flex;
 }
 .left-mini-hero {
-  background-image: url("./assets/HomepageImages/luxury-house-frontpage.jpg");
+  background-image: url("../assets/HomepageImages/luxury-house-frontpage.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -352,264 +352,6 @@ footer {
 }
 .footer-info > p > a {
   color: white;
-}
-
-/* DOOR PAGE */
-.door-intro-background {
-  background-color: #94af9f;
-  color: white;
-  padding: 20px 0;
-  margin-bottom: 50px;
-}
-.door-intro-section {
-  display: flex;
-  width: 80%;
-  margin: 40px auto;
-  gap: 20px;
-}
-.door-intro-text {
-  width: 30%;
-}
-.door-intro-text > h1 {
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-.door-intro-image {
-  width: 60%;
-  height: 300px;
-  background-image: url(./assets/GiljeDoors/doors-page-hero.jpg);
-  background-size: 130%;
-  background-position: center;
-}
-.door-grid {
-  width: 80%;
-  margin: auto;
-}
-.door-grid > a > img {
-  width: 14%;
-  margin: 10px;
-}
-.window-intro-image {
-  width: 60%;
-  height: 300px;
-  background-image: url(./assets/GiljeWindows/window-page-hero.gif);
-  background-size: 140%;
-  background-position: center;
-}
-.window-grid {
-  width: 80%;
-  margin: 50px auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.window-grid > div > a > img {
-  width: 100%;
-  padding: 50px 0;
-}
-.window-grid > div {
-  width: 33%;
-}
-.window-grid > div > p {
-  text-align: center;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.window-product-info {
-  width: 50%;
-}
-.window-product-info>div>p {
-  line-height: 30px;
-}
-.window-product-container {
-  display: flex;
-  width: 90%;
-  margin: 80px auto;
-  justify-content: space-between;
-}
-.window-product-image {
-  margin: auto;
-  background-color: white;
-}
-.window-product-image>h2 {
-  text-transform: uppercase;
-  text-align: center;
-}
-.window-product-image > img {
-  display: flex;
-  margin: 20px auto;
-  width: 100%;
-}
-/* DOOR SINGLE PRODUCT PAGE*/
-.door-product-container {
-  display: flex;
-  width: 80%;
-  margin: 80px auto;
-  justify-content: space-between;
-}
-.door-product-image {
-  width: 55%;
-  margin: auto;
-  background-color: white;
-}
-.door-product-image>h2 {
-  text-transform: uppercase;
-  text-align: center;
-}
-.door-product-image > img {
-  display: flex;
-  margin: 20px auto;
-  width: 30%;
-}
-.door-product-info {
-  width: 50%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: center;
-}
-.door-product-info > div > h3 {
-  text-transform: uppercase;
-  margin-bottom: 9px;
-}
-/* CONTACT PAGE */
-.contact-form-container {
-  width: 70%;
-  height: 50vh;
-  margin: 70px 0;
-}
-.contact-form-container > h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.contact-form-container>p {
-  width: 80%;
-  margin: auto;
-}
-.contact-form {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-.contact-form > button {
-  width: 40%;
-  margin-top: 30px;
-  background-color: transparent;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-.contact-form > label {
-  padding-top: 25px;
-}
-.contact-form > input {
-  padding: 10px;
-  border-radius: 3px;
-  border: 1px solid lightgray;
-}
-.contact-form > textarea {
-  border-radius: 3px;
-  border: 1px solid lightgray;
-}
-.contact-form-background {
-  display: flex;
-  margin: auto;
-  width: 80%;
-  gap: 20px;
-}
-.contact-form-image {
-  width: 70%;
-  margin: 60px 0;
-  background-image: url("./assets/ContactUsImages/kontakt-oss.jpg");
-  background-size: cover;
-  background-position: center;
-  border-bottom-right-radius: 120px;
-}
-.about-us__container-hero {
-  display: flex;
-  margin: 30px auto;
-  justify-content: space-between;
-  width: 100%;
-}
-.about-us__container-hero > .left-hero {
-  padding-left: 50px;
-  justify-content: center;
-  gap: 30px;
-}
-.about-us__container > div > h1,
-.about-us__container > div > p {
-  text-align: center;
-}
-.about-us__container > h1 {
-  text-transform: capitalize;
-}
-.about-us__right-hero {
-  background-image: url("./assets/AboutUsImages/om-oss1.jpg");
-  background-position: center;
-  width: 50%;
-  height: 500px;
-  background-repeat: none;
-  background-size: cover;
-  border-bottom-left-radius: 99px;
-}
-.about-us__left-hero {
-  background-image: url("./assets/AboutUsImages/om-oss2.jpg");
-  background-position: center;
-  background-size: cover;
-  width: 50%;
-  height: 500px;
-  background-repeat: none;
-  border-top-left-radius: 99px;
-}
-.about-us__right-hero-second {
-  background-image: url("./assets/AboutUsImages/om-oss3.gif");
-  background-position: center;
-  width: 50%;
-  height: 500px;
-  background-repeat: none;
-  background-size: cover;
-  border-bottom-left-radius: 99px;
-}
-.about-us__intro-background {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #94af9f;
-  color: white;
-  height: 400px;
-  padding: 20px 0;
-}
-/* GILJE SENSE PAGE */
-.gilje-sense_intro-image {
-  width: 80%;
-  height: 330px;
-  background-image: url(./assets/GiljeSenseImages/gilje-sense-mobile.jpeg);
-  background-repeat: no-repeat;
-  background-position: center
-}
-.gilje-sense__container-hero {
-display: flex;
-  margin: 30px auto;
-  justify-content: space-between;
-  width: 100%;
-}
-.gilje-sense__container-hero > .left-hero {
-  padding-left: 50px;
-  justify-content: center;
-  gap: 30px;
-}
-.gilje-sense__container > div > h1,
-.gilje-sense__container > div > p {
-  text-align: center;
-}
-.gilje-sense__container__right-hero {
-  width: 50%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-repeat: none;
-  background-size: cover;
-  border-bottom-left-radius: 99px;
 }
 @media only screen and (max-width: 768px) {
   * {

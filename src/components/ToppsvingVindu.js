@@ -1,5 +1,5 @@
 import React from 'react';
-import windows from "../window";
+import windows from "../data/window";
 import { useNavigate } from 'react-router-dom';
 
 function ToppsvingVindu() {

@@ -1,0 +1,52 @@
+.window-intro-image {
+    width: 60%;
+    height: 300px;
+    background-image: url(../assets/GiljeWindows/window-page-hero.gif);
+    background-size: 140%;
+    background-position: center;
+  }
+  .window-grid {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .window-grid > div > a > img {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .window-grid > div {
+    width: 33%;
+  }
+  .window-grid > div > p {
+    text-align: center;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .window-product-info {
+    width: 50%;
+  }
+  .window-product-info>div>p {
+    line-height: 30px;
+  }
+  .window-product-container {
+    display: flex;
+    width: 90%;
+    margin: 80px auto;
+    justify-content: space-between;
+  }
+  .window-product-image {
+    margin: auto;
+    background-color: white;
+  }
+  .window-product-image>h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .window-product-image > img {
+    display: flex;
+    margin: 20px auto;
+    width: 100%;
+  }
