@@ -1,33 +1,32 @@
-import React from 'react';
-import { useState } from "react";
-import ToppsvingVindu from "../components/ToppsvingVindu";
-import InnadslaendeVindu from "../components/InnadslaendeVindu";
-import ToppSidehengsletVindu from "../components/ToppSidehengsletVindu";
-import FastkarmVindu from "../components/FastkarmVindu";
-import KombinasjonVindu from "../components/KombinasjonVindu";
-import SpesialVindu from "../components/SpesialVindu";
+import React from "react";
+import windows from "../data/window.js";
 
-function Windows() {
-const [activeWindowCard, setActiveWindowCard] = useState(0)
-
+function Window() {
   return (
-    <div className="window-container-nav">
-      <nav>
-        <button className={`underline ${activeWindowCard === 0 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(0)}>Toppsving</button>
-        <button className={`underline ${activeWindowCard === 1 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(1)}>Innadslående</button>
-        <button className={`underline ${activeWindowCard === 2 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(2)}>Topp/sidehengslet</button>
-        <button className={`underline ${activeWindowCard === 3 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(3)}>Fastkarm</button>
-        <button className={`underline ${activeWindowCard === 4 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(4)}>Kombinasjon</button>
-        <button className={`underline ${activeWindowCard === 5 ? "bolded" : ""}`} onClick={() => setActiveWindowCard(5)}>Spesial</button>
-      </nav>
-      {activeWindowCard === 0 && <ToppsvingVindu />}
-      {activeWindowCard === 1 && <InnadslaendeVindu />}
-      {activeWindowCard === 2 && <ToppSidehengsletVindu />}
-      {activeWindowCard === 3 && <FastkarmVindu />}
-      {activeWindowCard === 4 && <KombinasjonVindu />}
-      {activeWindowCard === 5 && <SpesialVindu />}
+    <div>
+      <div className="door-intro-background">
+        <div className="door-intro-section">
+          <div className="door-intro-text">
+            <h1>Vinduer</h1>
+            <p>
+              Klikk for å lese mer om de ulike vindustypene vi tilbyr under.
+            </p>
+          </div>
+          <div className="window-intro-image"></div>
+        </div>
+      </div>
+      <div className="window-grid">
+        {windows.map((window) => (
+          <div key={window.id}>
+            <p>{window.title}</p>
+            <a href={"/vinduer/" + window.id}>
+              <img src={window.image} alt="window" />
+            </a>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
 
-export default Windows;
+export default Window;

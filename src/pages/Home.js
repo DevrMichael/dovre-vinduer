@@ -3,7 +3,7 @@ import "../App.css";
 import { useNavigate } from "react-router-dom";
 import { Slider } from "../slider";
 import slides from "../data/door.js";
-import Windows from "../pages/Windows";
+import Windows from "../components/WindowsComponent";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
