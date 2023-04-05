@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import { useNavigate } from "react-router-dom";
 import { Slider } from "../slider";
 import slides from "../data/door.js";
