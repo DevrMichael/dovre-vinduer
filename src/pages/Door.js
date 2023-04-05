@@ -1,5 +1,5 @@
 import React from "react";
-import doors from "../door.js";
+import doors from "../data/door.js";
 
 function Door() {
   return (

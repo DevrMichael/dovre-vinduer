@@ -1,7 +1,7 @@
 import React from 'react';
+import { useState } from "react";
 import ToppsvingVindu from "../components/ToppsvingVindu";
 import InnadslaendeVindu from "../components/InnadslaendeVindu";
-import { useState } from "react";
 import ToppSidehengsletVindu from "../components/ToppSidehengsletVindu";
 import FastkarmVindu from "../components/FastkarmVindu";
 import KombinasjonVindu from "../components/KombinasjonVindu";

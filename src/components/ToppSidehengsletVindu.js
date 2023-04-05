@@ -1,4 +1,4 @@
-import windows from "../window";
+import windows from "../data/window";
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import windows from "../window.js";
+import windows from "../data/window.js";
 
 function Window() {
   return (

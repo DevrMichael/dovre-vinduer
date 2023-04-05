@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import doors from "../door";
+import doors from "../data/door.js";
 
 function DoorProduct() {
   const { doorId } = useParams();
