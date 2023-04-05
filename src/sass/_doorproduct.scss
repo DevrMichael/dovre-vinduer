@@ -1,0 +1,31 @@
+.door-product-container {
+    display: flex;
+    width: 80%;
+    margin: 80px auto;
+    justify-content: space-between;
+  }
+  .door-product-image {
+    width: 55%;
+    margin: auto;
+    background-color: white;
+  }
+  .door-product-image>h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .door-product-image > img {
+    display: flex;
+    margin: 20px auto;
+    width: 30%;
+  }
+  .door-product-info {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  .door-product-info > div > h3 {
+    text-transform: uppercase;
+    margin-bottom: 9px;
+  }

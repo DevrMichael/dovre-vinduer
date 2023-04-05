@@ -1,0 +1,34 @@
+.door-intro-background {
+    background-color: #94af9f;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 50px;
+  }
+  .door-intro-section {
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    gap: 20px;
+  }
+  .door-intro-text {
+    width: 30%;
+  }
+  .door-intro-text > h1 {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .door-intro-image {
+    width: 60%;
+    height: 300px;
+    background-image: url(../assets/GiljeDoors/doors-page-hero.jpg);
+    background-size: 130%;
+    background-position: center;
+  }
+  .door-grid {
+    width: 80%;
+    margin: auto;
+  }
+  .door-grid > a > img {
+    width: 14%;
+    margin: 10px;
+  }
