@@ -61,3 +61,9 @@
       margin: 10px;
     }
   }
+
+  @media only screen and (max-width: 380px) {
+    .door-grid > a > img {
+      width: 43%;
+    }
+  }
