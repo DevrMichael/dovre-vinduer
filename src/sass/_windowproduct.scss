@@ -1,0 +1,38 @@
+  .window-product-info {
+    width: 50%;
+  }
+  .window-product-info>div>p {
+    line-height: 30px;
+  }
+  .window-product-container {
+    display: flex;
+    width: 90%;
+    margin: 80px auto;
+    justify-content: space-between;
+  }
+  .window-product-image {
+    margin: auto;
+    background-color: white;
+  }
+  .window-product-image>h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .window-product-image > img {
+    display: flex;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 768px) { 
+    .window-product-container {
+        display: block;
+        width: 90%;
+        margin: 60px auto;
+    }
+    .window-product-info {
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+    }
+  }
