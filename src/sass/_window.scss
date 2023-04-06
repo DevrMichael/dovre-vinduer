@@ -65,3 +65,36 @@
     margin: 20px auto;
     width: 100%;
   }
+
+  @media only screen and (max-width: 768px) {
+    .window-intro-section {
+      display: block;
+      width: 100%;
+      margin: 40px auto;
+      gap: 20px;
+    }
+    .window-intro-image {
+      width: 100%;
+      background-size: cover;
+    }
+    .window-intro-text {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+    .window-intro-text>p {
+      padding: 30px 0;
+    }
+
+    .window-grid {
+display: block;
+width: 100%;
+    }
+    .window-grid > div {
+      width: 90%;
+      margin: auto;
+    }
+    .window-grid > div > p {
+      font-size: 1.1em;
+    }
+  }
