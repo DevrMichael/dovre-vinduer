@@ -29,3 +29,28 @@
     text-transform: uppercase;
     margin-bottom: 9px;
   }
+
+  @media only screen and (max-width: 768px) {
+    .door-product-container {
+      display: block;
+      width: 80%;
+      margin: 20px auto;
+    }
+    .door-product-info {
+      width: 90%;
+      margin: auto;
+      display: block;
+    }
+    .door-product-image {
+      width: 100%;
+      margin: auto;
+      background-color: white;
+      padding-bottom: 30px;
+    }
+    .door-product-image > img {
+      width: 50%;
+    }
+    .door-product-info > div {
+      padding: 15px 0;
+    }
+   }
