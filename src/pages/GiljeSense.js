@@ -3,9 +3,9 @@ import React from 'react'
 function GiljeSense() {
   return (
     <div className='gilje-sense__container'>
-        <div className="door-intro-background">
-        <div className="door-intro-section">
-          <div className="door-intro-text">
+        <div className="gilje-sense-intro-background">
+        <div className="gilje-sense-intro-section">
+          <div className="gilje-sense-intro-text">
           <h1>Gilje Sense</h1>
             <p>
               Gilje Sense lar deg ha full kontroll over dine dører og vinduer fra din mobiltelefon.
@@ -14,7 +14,7 @@ function GiljeSense() {
           <div className="gilje-sense_intro-image"></div>
         </div>
       </div>
-      <div className="about-us__container-hero">
+      <div className="gilje-sense__container-hero">
         <div className="left-hero">
           <h1>Hva er Gilje Sense?</h1>
           <p>Vi tilbyr Gilje Sense som gjør at du har full kontroll over dine dører og vinduer fra en enkel app på mobiltelefonen din. Appen sjekker om alle dine dører og vinduer er lukket og låst. <br /> <br />
