@@ -4,9 +4,9 @@ import windows from "../data/window.js";
 function Window() {
   return (
     <div>
-      <div className="door-intro-background">
-        <div className="door-intro-section">
-          <div className="door-intro-text">
+      <div className="window-intro-background">
+        <div className="window-intro-section">
+          <div className="window-intro-text">
             <h1>Vinduer</h1>
             <p>
               Klikk for å lese mer om de ulike vindustypene vi tilbyr under.

@@ -1,3 +1,18 @@
+.window-intro-background {
+  background-color: #94af9f;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.window-intro-section {
+  display: flex;
+  width: 80%;
+  margin: 40px auto;
+  gap: 20px;
+}
+.window-intro-text {
+  width: 30%;
+}
 .window-intro-image {
     width: 60%;
     height: 300px;
