@@ -353,12 +353,41 @@ footer {
 .footer-info > p > a {
   color: white;
 }
+
 @media only screen and (max-width: 768px) {
   * {
     max-width: 100%;
   }
-  header { 
+  .logo {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .primaryButton {
     display: none;
+  }
+  header {
+    width: 100%;
+    margin: auto;
+    display: block;
+    align-items: center;
+    padding: 15px 0;
+  }
+  header > div > a {
+    padding: 0 5px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 0.6em;
+    text-decoration: none;
+  }
+  .nav-container {
+    padding-top: 10px 0 0 0;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
   }
   .hero {
     display: block;
@@ -474,4 +503,17 @@ text-decoration: none;
 .footer-info {
   font-size: 14px;
 }
+}
+
+@media only screen and (max-width: 380px) {
+  header > div > a {
+    font-size: 0.5em;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+  .footer-nav {
+    font-size: 12px;
+    }
 }

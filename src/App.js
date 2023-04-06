@@ -15,9 +15,9 @@ function App() {
       <main>
         <header>
           <div className="logo">Dovrevinduer</div>
-          <div>
+          <div className="nav-container">
             <Link style={{ color: "black", textDecoration: "none" }} to="/">
-              Home
+              Hjem
             </Link>
             <Link
               style={{ color: "black", textDecoration: "none" }}
