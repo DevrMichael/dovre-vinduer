@@ -24,6 +24,7 @@ function AboutUs() {
           Det er viktig for oss at alle våre produkter er av kvalitet som holder lenge. I tillegg gir vi våre kunder 20 års garanti på våre vinduer, balkongdører og skyverdører.
           </p>
         </div>
+        <div className="about-us__left-hero"></div>
       </div>
       <div className="about-us__container-hero">
         <div className="left-hero">
