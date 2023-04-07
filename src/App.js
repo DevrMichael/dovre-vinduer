@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Door from "./pages/Doors";
@@ -8,8 +8,15 @@ import Contact from "./pages/Contact";
 import DoorProduct from "./pages/DoorProduct";
 import WindowProduct from "./pages/WindowProduct";
 import GiljeSense from "./pages/GiljeSense";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faX } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  }
   return (
     <div>
       <main>
@@ -54,6 +61,56 @@ function App() {
               </Link>
             </button>
           </div>
+          <div className="hamburger-menu">
+      {!isOpen && (<button className="hamburger-menu__button" onClick={toggleMenu}>
+        <span className="hamburger-menu__icon"></span>
+      </button>)}
+      {isOpen && (
+        <nav className="hamburger-menu__nav">
+          <button className="hamburger-menu__close-button" onClick={toggleMenu}>
+          <span className="hamburger-menu__close-icon"><FontAwesomeIcon icon={faX} /></span>
+          </button>
+          <ul className="hamburger-menu__list">
+            <li className="hamburger-menu__item"><Link
+                style={{ textDecoration: "none" }}
+                to="/"
+              >
+                Hjem
+              </Link></li>
+            <li className="hamburger-menu__item"><Link
+                style={{ textDecoration: "none" }}
+                to="/vinduer"
+              >
+                Vinduer
+              </Link></li>
+            <li className="hamburger-menu__item"><Link
+                style={{ textDecoration: "none" }}
+                to="/dorer"
+              >
+                Dører
+              </Link></li>
+            <li className="hamburger-menu__item"><Link
+                style={{ textDecoration: "none" }}
+                to="/gilje-sense"
+              >
+                Gilje Sense
+              </Link></li>
+            <li className="hamburger-menu__item"><Link
+                style={{ textDecoration: "none" }}
+                to="/omoss"
+              >
+                Om Oss
+              </Link></li>
+            <li className="hamburger-menu__item"><Link
+                style={{ textDecoration: "none" }}
+                to="/kontakt"
+              >
+                Kontakt
+              </Link></li>
+          </ul>
+        </nav>
+      )}
+    </div>
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
