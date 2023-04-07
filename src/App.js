@@ -68,7 +68,7 @@ function App() {
       {isOpen && (
         <nav className="hamburger-menu__nav">
           <button className="hamburger-menu__close-button" onClick={toggleMenu}>
-          <span className="hamburger-menu__close-icon"><FontAwesomeIcon icon={faX} /></span>
+          <span className="hamburger-menu__close-icon"><FontAwesomeIcon icon={faX} size="lg" /></span>
           </button>
           <ul className="hamburger-menu__list">
             <li className="hamburger-menu__item"><Link
