@@ -9,7 +9,7 @@ import DoorProduct from "./pages/DoorProduct";
 import WindowProduct from "./pages/WindowProduct";
 import GiljeSense from "./pages/GiljeSense";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { faX } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
