@@ -78,11 +78,13 @@
   .hamburger-menu__item {
     margin-bottom: 30px;
     text-transform: uppercase;
+    background-color: #FFF;
+    border: none;
   }
   
-  .hamburger-menu__item a {
-    color: #000;
+  .hamburger-menu__item  {
     font-size: 1em;
+    color: #000;
   }
 
   @media only screen and (max-width: 768px) { 

@@ -71,42 +71,42 @@ function App() {
           <span className="hamburger-menu__close-icon"><FontAwesomeIcon icon={faX} size="lg" /></span>
           </button>
           <ul className="hamburger-menu__list">
-            <li className="hamburger-menu__item"><Link
-                style={{ textDecoration: "none" }}
+            <button className="hamburger-menu__item" onClick={toggleMenu}><Link
+                style={{ color: "#000", textDecoration: "none" }}
                 to="/"
               >
                 Hjem
-              </Link></li>
-            <li className="hamburger-menu__item"><Link
-                style={{ textDecoration: "none" }}
+              </Link></button>
+            <button className="hamburger-menu__item" onClick={toggleMenu}><Link
+                style={{ color: "#000", textDecoration: "none" }}
                 to="/vinduer"
               >
                 Vinduer
-              </Link></li>
-            <li className="hamburger-menu__item"><Link
-                style={{ textDecoration: "none" }}
+              </Link></button>
+            <button className="hamburger-menu__item" onClick={toggleMenu}><Link
+                style={{ color: "#000", textDecoration: "none" }}
                 to="/dorer"
               >
                 Dører
-              </Link></li>
-            <li className="hamburger-menu__item"><Link
-                style={{ textDecoration: "none" }}
+              </Link></button>
+            <button className="hamburger-menu__item" onClick={toggleMenu}><Link
+                style={{ color: "#000", textDecoration: "none" }}
                 to="/gilje-sense"
               >
                 Gilje Sense
-              </Link></li>
-            <li className="hamburger-menu__item"><Link
-                style={{ textDecoration: "none" }}
+              </Link></button>
+            <button className="hamburger-menu__item" onClick={toggleMenu}><Link
+                style={{ color: "#000",textDecoration: "none" }}
                 to="/omoss"
               >
                 Om Oss
-              </Link></li>
-            <li className="hamburger-menu__item"><Link
-                style={{ textDecoration: "none" }}
+              </Link></button>
+            <button className="hamburger-menu__item" onClick={toggleMenu}><Link
+                style={{ color: "#000", textDecoration: "none" }}
                 to="/kontakt"
               >
                 Kontakt
-              </Link></li>
+              </Link></button>
           </ul>
         </nav>
       )}
