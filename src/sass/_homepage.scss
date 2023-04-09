@@ -36,7 +36,7 @@ header > div > button {
 }
 .hero {
   display: flex;
-  width: 85%;
+  width: 100%;
   margin: 30px auto;
   justify-content: space-between;
 }
@@ -44,6 +44,7 @@ header > div > button {
   display: flex;
   flex-direction: column;
   margin: auto 0;
+  padding-left: 50px;
   width: 40%;
 }
 .left-hero > h1 {
@@ -75,11 +76,11 @@ header > div > button {
 .right-hero {
   background-image: url("../assets/HomepageImages/hero-landscape.jpg");
   background-position: center;
-  width: 50%;
+  width: 55%;
   height: 500px;
   background-repeat: none;
   background-size: cover;
-  border-bottom-left-radius: 99px;
+  // border-bottom-left-radius: 99px;
 }
 .features {
   color: white;
