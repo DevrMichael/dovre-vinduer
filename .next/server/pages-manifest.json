@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/doors": "pages/doors.js",
-  "/": "pages/index.js",
-  "/windows": "pages/windows.js",
-  "/aboutus": "pages/aboutus.js",
-  "/giljesense": "pages/giljesense.js"
+  "/aboutus": "pages/aboutus.js"
 }
