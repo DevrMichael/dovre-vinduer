@@ -1,12 +1,14 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/aboutus": "pages/aboutus.html",
+  "/doors": "pages/doors.html",
+  "/_app": "pages/_app.js",
+  "/contact": "pages/contact.html",
+  "/doors/[id]": "pages/doors/[id].html",
+  "/giljesense": "pages/giljesense.html",
+  "/windows": "pages/windows.html",
+  "/": "pages/index.html",
+  "/windows/[id]": "pages/windows/[id].html",
   "/_document": "pages/_document.js",
-  "/windows": "pages/windows.js",
-  "/aboutus": "pages/aboutus.js",
-  "/doors": "pages/doors.js",
-  "/": "pages/index.js",
-  "/doors/[id]": "pages/doors/[id].js",
-  "/windows/[id]": "pages/windows/[id].js",
-  "/giljesense": "pages/giljesense.js"
+  "/404": "pages/404.html"
 }
