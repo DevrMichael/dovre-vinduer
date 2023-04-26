@@ -16,7 +16,7 @@ export const Slider = ({ slides }) => {
     >
       {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <a href={'/doors/' + slide.id}>
+            <a href={'/dorer/' + slide.id}>
             <Image className="doorImage" src={slide.image} alt={slide.title} />
             </a>
           </SwiperSlide>

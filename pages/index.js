@@ -16,13 +16,13 @@ function Home() {
   };
 
   const redirectVinduer = () => {
-    let path = `/windows`;
+    let path = `/vinduer`;
     router.push(path);
     window.scrollTo(0, 0);
   };
   
   const redirectDorer = () => { 
-    let path = `/doors`;
+    let path = `/dorer`;
     router.push(path);
     window.scrollTo(0, 0);
   };

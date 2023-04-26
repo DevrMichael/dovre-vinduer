@@ -6,7 +6,7 @@ import Image from 'next/image'
 function KombinasjonVindu() {
   const router = useRouter();
   const redirectKombinasjon= () => {
-    let path = `/windows/6`;
+    let path = `/vinduer/6`;
     router.push(path);
     window.scrollTo(0, 0);
   };

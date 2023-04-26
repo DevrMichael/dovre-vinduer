@@ -6,7 +6,7 @@ import Image from 'next/image'
 function ToppsvingVindu() {
 const router = useRouter();
   const redirectToppsving= () => {
-    let path = `/windows/5`;
+    let path = `/vinduer/5`;
     router.push(path);
     window.scrollTo(0, 0);
   };

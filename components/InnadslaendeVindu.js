@@ -6,7 +6,7 @@ import Image from 'next/image'
 function InnadslaendeVindu() {
   const router = useRouter();
   const redirectInnadslaende= () => {
-    let path = `/windows/3`;
+    let path = `/vinduer/3`;
     router.push(path);
     window.scrollTo(0, 0);
   };

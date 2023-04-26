@@ -6,7 +6,7 @@ import Image from 'next/image'
 function SpesialVindu() {
 const router = useRouter();
   const redirectSpesial= () => {
-    let path = `/windows/4`;
+    let path = `/vinduer/4`;
     router.push(path);
     window.scrollTo(0, 0);
   };

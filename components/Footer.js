@@ -13,10 +13,10 @@ function Footer() {
     <footer>
       <div className="footer-nav">
         <a href="/">Hjem</a>
-        <a href="/windows">Vinduer</a>
-        <a href="/doors">Dører</a>
-        <a href="/aboutus">Om Oss</a>
-        <a href="/contact">Kontakt</a>
+        <a href="/vinduer">Vinduer</a>
+        <a href="/dorer">Dører</a>
+        <a href="/omoss">Om Oss</a>
+        <a href="/kontakt">Kontakt</a>
       </div>
       <div className="footer-info">
         <p>Dovre Vinduer AS 1475 Finstadjordet</p>

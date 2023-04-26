@@ -20,7 +20,7 @@ function Window() {
         {windows.map((window) => (
           <div key={window.id}>
             <p>{window.title}</p>
-            <a href={"/windows/" + window.id}>
+            <a href={"/vinduer/" + window.id}>
               <Image src={window.image} alt="window" width={500} height={350}/>
             </a>
           </div>

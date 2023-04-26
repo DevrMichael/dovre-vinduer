@@ -6,7 +6,7 @@ import Image from 'next/image'
 function ToppSidehengsletVindu() {
 const router = useRouter();
   const redirectToppSidehengslet= () => {
-    let path = `/windows/1`;
+    let path = `/vinduer/1`;
     router.push(path);
     window.scrollTo(0, 0);
   };

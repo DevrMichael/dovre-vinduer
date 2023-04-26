@@ -23,13 +23,13 @@ function NavBar() {
       </Link>
       <Link
         style={{ color: "black", textDecoration: "none" }}
-        href={"/windows"}
+        href={"/vinduer"}
       >
         Vinduer
       </Link>
       <Link
         style={{ color: "black", textDecoration: "none" }}
-        href={"/doors"}
+        href={"/dorer"}
       >
         Dører
       </Link>
@@ -41,7 +41,7 @@ function NavBar() {
       </Link>
       <Link
         style={{ color: "black", textDecoration: "none" }}
-        href={"/aboutus"}
+        href={"/omoss"}
       >
         Om oss
       </Link>
@@ -50,7 +50,7 @@ function NavBar() {
       <button className="primaryButton">
         <Link
           style={{ color: "white", textDecoration: "none" }}
-          href={"/contact"}
+          href={"/kontakt"}
         >
           Kontakt
         </Link>
@@ -74,13 +74,13 @@ function NavBar() {
         </Link></button>
       <button className="hamburger-menu__item" onClick={toggleMenu}><Link
           style={{ color: "#000", textDecoration: "none" }}
-          href="/windows"
+          href="/vinduer"
         >
           Vinduer
         </Link></button>
       <button className="hamburger-menu__item" onClick={toggleMenu}><Link
           style={{ color: "#000", textDecoration: "none" }}
-          href="/doors"
+          href="/dorer"
         >
           Dører
         </Link></button>
@@ -92,13 +92,13 @@ function NavBar() {
         </Link></button>
       <button className="hamburger-menu__item" onClick={toggleMenu}><Link
           style={{ color: "#000",textDecoration: "none" }}
-          href="/aboutus"
+          href="/omoss"
         >
           Om Oss
         </Link></button>
       <button className="hamburger-menu__item" onClick={toggleMenu}><Link
           style={{ color: "#000", textDecoration: "none" }}
-          href="/contact"
+          href="/kontakt"
         >
           Kontakt
         </Link></button>

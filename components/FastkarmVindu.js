@@ -6,7 +6,7 @@ import Image from 'next/image'
 function FastkarmVindu() {
   const router = useRouter();
   const redirectFastkarm= () => {
-    let path = `/windows/2`;
+    let path = `/vinduer/2`;
     router.push(path);
     window.scrollTo(0, 0);
   };
