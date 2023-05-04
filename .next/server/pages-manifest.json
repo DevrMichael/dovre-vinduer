@@ -1,8 +1,14 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/": "pages/index.html",
+  "/dorer": "pages/dorer.html",
+  "/giljesense": "pages/giljesense.html",
+  "/dorer/[id]": "pages/dorer/[id].html",
+  "/kontakt": "pages/kontakt.html",
+  "/omoss": "pages/omoss.html",
+  "/vinduer": "pages/vinduer.html",
+  "/vinduer/[id]": "pages/vinduer/[id].html",
   "/_document": "pages/_document.js",
-  "/dorer": "pages/dorer.js",
-  "/giljesense": "pages/giljesense.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
