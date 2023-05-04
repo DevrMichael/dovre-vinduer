@@ -30,35 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aboutus": [
+    "/dorer": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aboutus.js"
-    ],
-    "/doors": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/doors.js"
-    ],
-    "/doors/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/doors/[id].js"
+      "static/chunks/pages/dorer.js"
     ],
     "/giljesense": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/giljesense.js"
-    ],
-    "/windows": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/windows.js"
-    ],
-    "/windows/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/windows/[id].js"
     ]
   },
   "ampFirstPages": []
