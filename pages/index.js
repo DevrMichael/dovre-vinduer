@@ -50,6 +50,7 @@ function Home() {
               height={470}
               alt='norwegian mountains and fjords'
               className='right-hero'
+              priority
             />
         </div>
         <div className="features-background">
