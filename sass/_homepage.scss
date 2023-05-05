@@ -82,7 +82,7 @@ header > div > button {
   }
 }
 .right-hero {
-  background-image: url("../public/assets/HomepageImages/hero-landscape.jpg");
+  background-image: url('../public/assets/HomepageImages/hero-landscape.jpg');
   background-position: center;
   width: 55%;
   height: 500px;
@@ -224,7 +224,7 @@ header > div > button {
 }
 .window-container {
   width: 100%;
-  height: 85vh;
+  min-height: 85vh;
   margin: 40px auto;
   padding: 90px 10px;
   display: flex;
