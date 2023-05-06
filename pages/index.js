@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Slider } from "../components/Slider";
 import slides from "../data/door.js";
 import Windows from "../components/WindowsComponent";
+import Head from 'next/head';
 
 
 function Home() {
@@ -32,9 +33,17 @@ function Home() {
   //   window.scrollTo(0, 0);
   // };
   return (
-    <>
-    
     <div>
+    <Head>
+        <title>
+          Dovre Vinduer
+        </title>
+        <meta
+          name="description"
+          content="Vinduer og dører av høy kvalitet."
+          key="desc"
+        />
+      </Head>
       <div className="hero">
         <div className="left-hero">
           <h1>Vi Skaper et Godt fundament for hjemmet</h1>
@@ -135,7 +144,6 @@ function Home() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 

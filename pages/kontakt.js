@@ -1,17 +1,27 @@
-import React from 'react'
+import React from 'react';
+import Head from 'next/head';
 
 function Contact() {
   return (
-    <div className='contact-form-background'>
-      <div className='contact-form-image'>
-
-      </div>
-    <div className='contact-form-container'>
-      <h1>Kontakt Oss</h1>
-      <p>
-            Ta kontakt med oss i dag for mer utfyllende informasjon om våre produkter og tjenester. <br /> <br /> Send oss en mail ved å klikke <a href="mailto:naeem@dovrevinduer.no">her</a> eller ring oss på tlf nr. 90 76 15 78.
-          </p>
-      {/* <form className='contact-form'>
+    <div className="contact-form-background">
+      <Head>
+        <title>Dovre Vinduer | Kontakt Oss</title>
+        <meta
+          name="description"
+          content="Kontakt oss for mer utfyllende informasjon om våre produkter."
+          key="desc"
+        />
+      </Head>
+      <div className="contact-form-image"></div>
+      <div className="contact-form-container">
+        <h1>Kontakt Oss</h1>
+        <p>
+          Ta kontakt med oss i dag for mer utfyllende informasjon om våre
+          produkter og tjenester. <br /> <br /> Send oss en mail ved å klikke{' '}
+          <a href="mailto:naeem@dovrevinduer.no">her</a> eller ring oss på tlf
+          nr. 90 76 15 78.
+        </p>
+        {/* <form className='contact-form'>
         <label htmlFor="name">Name</label>
         <input type="text" />
         <label htmlFor="email">Email</label>
@@ -20,9 +30,9 @@ function Contact() {
         <textarea name="textarea" id="" cols="30" rows="10"></textarea>
         <button>Send Message</button>
       </form> */}
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

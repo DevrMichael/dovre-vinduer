@@ -1,10 +1,21 @@
 import React from "react";
 import windows from "../data/window.js";
 import Image from 'next/image'
+import Head from 'next/head';
 
 function Window() {
   return (
     <div>
+      <Head>
+        <title>
+        Dovre Vinduer | Vinduer
+        </title>
+        <meta
+          name="description"
+          content="Vinduer for alle type fasader."
+          key="desc"
+        />
+      </Head>
       <div className="window-intro-background">
         <div className="window-intro-section">
           <div className="window-intro-text">

@@ -1,8 +1,17 @@
 import React from "react";
+import Head from "next/head";
 
 function AboutUs() {
   return (
     <div className="about-us__container">
+      <Head>
+        <title>Dovre Vinduer | Om Oss</title>
+        <meta
+          name="description"
+          content="Vår lidenskap er å levere høykvalitets vinduer og dører til alle våre kunder."
+          key="desc"
+        />
+      </Head>
       <div className="about-us__intro-background">
         <h1>Om Oss</h1>
         <p>Vår lidenskap er å levere høykvalitets vinduer og dører til alle våre kunder.</p>
