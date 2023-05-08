@@ -26,11 +26,16 @@ function WindowProduct() {
     <div>
       <Head>
         <title>{title}</title>
-        <meta
-          name="description"
-          content="Vinduer fra Gilje "
-          key="desc"
-        />
+        <meta name="description" content="Vinduer fra Gilje " key="desc" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TSQ0NM675K"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-TSQ0NM675K');
+        </script>
       </Head>
       <div className="window-product-container">
         <div className="window-product-image">

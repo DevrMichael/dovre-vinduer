@@ -22,11 +22,16 @@ function DoorProduct() {
     <div className="door-product-background">
       <Head>
         <title>{title}</title>
-        <meta
-          name="description"
-          content="Dører fra Gilje"
-          key="desc"
-        />
+        <meta name="description" content="Dører fra Gilje" key="desc" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TSQ0NM675K"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-TSQ0NM675K');
+        </script>
       </Head>
       <div className="door-product-container">
         <div className="door-product-image">

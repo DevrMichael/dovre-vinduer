@@ -11,6 +11,15 @@ function GiljeSense() {
           content="Gilje Sense gir deg full kontroll over dine dører og vinduer."
           key="desc"
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TSQ0NM675K"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-TSQ0NM675K');
+        </script>
       </Head>
       <div className="gilje-sense-intro-background">
         <div className="gilje-sense-intro-section">

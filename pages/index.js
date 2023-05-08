@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
-import { Slider } from "../components/Slider";
-import slides from "../data/door.js";
-import Windows from "../components/WindowsComponent";
+import React, { useState } from 'react';
+import { useRouter } from 'next/router';
+import Link from 'next/link';
+import { Slider } from '../components/Slider';
+import slides from '../data/door.js';
+import Windows from '../components/WindowsComponent';
 import Head from 'next/head';
-
 
 function Home() {
   const router = useRouter();
@@ -21,8 +20,8 @@ function Home() {
     router.push(path);
     window.scrollTo(0, 0);
   };
-  
-  const redirectDorer = () => { 
+
+  const redirectDorer = () => {
     let path = `/dorer`;
     router.push(path);
     window.scrollTo(0, 0);
@@ -34,15 +33,22 @@ function Home() {
   // };
   return (
     <div>
-    <Head>
-        <title>
-          Dovre Vinduer
-        </title>
+      <Head>
+        <title>Dovre Vinduer</title>
         <meta
           name="description"
           content="Vinduer og dører av høy kvalitet."
           key="desc"
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TSQ0NM675K"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-TSQ0NM675K');
+        </script>
       </Head>
       <div className="hero">
         <div className="left-hero">
@@ -61,7 +67,8 @@ function Home() {
           <div className="top-features">
             <h2>Vi tilbyr</h2>
             <p>
-              Vi tilbyr et bredt utvalg av vinduer og dører som passer for alle typer prosjekter.
+              Vi tilbyr et bredt utvalg av vinduer og dører som passer for alle
+              typer prosjekter.
             </p>
           </div>
           <div className="bottom-features">
