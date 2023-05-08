@@ -15,12 +15,12 @@ function Window() {
         />
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-TSQ0NM675K"
+          src="https://www.googletagmanager.com/gtag/js?id=G-FCK1NSGY19"
         ></script>
         <script>
           window.dataLayer = window.dataLayer || []; function gtag()
           {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-TSQ0NM675K');
+          gtag('js', new Date()); gtag('config', 'G-FCK1NSGY19');
         </script>
       </Head>
       <div className="window-intro-background">
