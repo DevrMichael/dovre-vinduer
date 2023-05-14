@@ -13,15 +13,6 @@ function Door() {
           content="Vårt utvalg består av over 50 unike dører."
           key="desc"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-FCK1NSGY19"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-FCK1NSGY19');
-        </script>
       </Head>
       <div className="door-intro-background">
         <div className="door-intro-section">

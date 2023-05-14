@@ -11,15 +11,6 @@ function Contact() {
           content="Kontakt oss for mer utfyllende informasjon om våre produkter."
           key="desc"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-FCK1NSGY19"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-FCK1NSGY19');
-        </script>
       </Head>
       <div className="contact-form-image"></div>
       <div className="contact-form-container">

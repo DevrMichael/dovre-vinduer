@@ -40,15 +40,6 @@ function Home() {
           content="Vinduer og dører av høy kvalitet."
           key="desc"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-FCK1NSGY19"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-FCK1NSGY19');
-        </script>
       </Head>
       <div className="hero">
         <div className="left-hero">

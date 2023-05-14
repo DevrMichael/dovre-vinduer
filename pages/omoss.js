@@ -11,15 +11,6 @@ function AboutUs() {
           content="Vår lidenskap er å levere høykvalitets vinduer og dører til alle våre kunder."
           key="desc"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-FCK1NSGY19"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-FCK1NSGY19');
-        </script>
       </Head>
       <div className="about-us__intro-background">
         <h1>Om Oss</h1>
