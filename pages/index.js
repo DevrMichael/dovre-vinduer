@@ -132,8 +132,8 @@ function Home() {
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7999.16456601887!2d10.963038206870166!3d59.919013545974245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464164c394b6a437%3A0x88feb36d7b578051!2zU8O4cmxpLCAxNDczIEzDuHJlbnNrb2csIE5vcmdl!5e0!3m2!1sno!2sus!4v1679138144514!5m2!1sno!2sus"
                 title="map"
-                width="500"
-                height="600"
+                width="600"
+                height="500"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
