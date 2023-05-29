@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faX } from '@fortawesome/free-solid-svg-icons';
+import { faX, faPhone } from '@fortawesome/free-solid-svg-icons';
 import dynamic from 'next/dynamic';
 import logo from '../public/dovre-vinduer-logo.png';
 import Image from 'next/image';
@@ -53,7 +53,11 @@ function NavBar() {
             Om oss
           </Link>
         </nav>
-        <div>
+        <div className="nav-contact-section">
+          <FontAwesomeIcon icon={faPhone} style={{ color: '#94af9f' }} />
+          <a className="nav-phone-number" href="tel:004790761578">
+            +47 90761578
+          </a>
           <button className="primaryButton">
             <Link
               style={{ color: 'white', textDecoration: 'none' }}

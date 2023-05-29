@@ -7,6 +7,13 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+.nav-contact-section {
+  .nav-phone-number {
+    text-decoration: none;
+    color: #94af9f;
+    padding-right: 1rem;
+  }
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -321,6 +328,19 @@ header > div > button {
 }
 .right-showroom {
   margin: 60px 0;
+}
+.footer-email,
+.footer-phone-number {
+  padding-left: 6px;
+  color: white;
+}
+.footer-email-section,
+.footer-phone-section {
+  padding: 10px 0;
+}
+.footer-contact-section {
+  display: flex;
+  gap: 1rem;
 }
 .footer-top {
   display: flex;
