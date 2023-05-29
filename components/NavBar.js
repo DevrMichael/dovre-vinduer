@@ -17,6 +17,7 @@ function NavBar() {
   return (
     <div>
       <header>
+      <Link style={{ color: 'black', textDecoration: 'none' }} href={'/'}>
         <Image
           src={logo}
           width={100}
@@ -24,6 +25,7 @@ function NavBar() {
           alt="dovre vinduer logo"
           className="logo"
         />
+          </Link>
         <nav className="nav-container">
           <Link style={{ color: 'black', textDecoration: 'none' }} href={'/'}>
             Hjem
