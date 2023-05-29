@@ -426,6 +426,16 @@ footer {
     justify-content: space-between;
     display: none;
   }
+  .nav-contact-section {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 0.8rem;
+
+    & .nav-phone-number {
+      font-size: 0.8rem;
+    }
+  }
   .hero {
     display: block;
     width: 100%;

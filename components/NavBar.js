@@ -54,7 +54,11 @@ function NavBar() {
           </Link>
         </nav>
         <div className="nav-contact-section">
-          <FontAwesomeIcon icon={faPhone} style={{ color: '#94af9f' }} />
+          <FontAwesomeIcon
+            className="nav-phone-icon"
+            icon={faPhone}
+            style={{ color: '#94af9f' }}
+          />
           <a className="nav-phone-number" href="tel:004790761578">
             +47 90761578
           </a>
