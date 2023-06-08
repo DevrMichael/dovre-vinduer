@@ -25,8 +25,8 @@ function Footer() {
           <div className="footer-contact-section">
             <div className="footer-email-section">
               <FontAwesomeIcon icon={faEnvelope} style={{ color: '#FFF' }} />
-              <a className="footer-email" href="mailto:naeem@dovrevinduer.no">
-                naeem@dovrevinduer.no
+              <a className="footer-email" href="mailto:post@dovrevinduer.no">
+                post@dovrevinduer.no
               </a>{' '}
             </div>
             <div className="footer-phone-section">

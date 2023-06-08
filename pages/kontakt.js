@@ -18,7 +18,7 @@ function Contact() {
         <p>
           Ta kontakt med oss i dag for mer utfyllende informasjon om våre
           produkter og tjenester. <br /> <br /> Send oss en mail ved å klikke{' '}
-          <a href="mailto:naeem@dovrevinduer.no">her</a> eller ring oss på tlf.{' '}
+          <a href="mailto:post@dovrevinduer.no">her</a> eller ring oss på tlf.{' '}
           <a href="tel:004790761578">90761578</a>.
         </p>
         {/* <form className='contact-form'>
