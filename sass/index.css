@@ -801,7 +801,6 @@ header > div > button {
 
 .window-container {
   width: 100%;
-  min-height: 85vh;
   margin: 40px auto;
   padding: 90px 10px;
   display: flex;
