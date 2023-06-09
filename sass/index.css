@@ -705,7 +705,6 @@ header > div > button {
 
 .features-background {
   background-color: #94af9f;
-  min-height: 85vh;
 }
 
 .mini-hero {
@@ -1072,7 +1071,7 @@ footer {
     width: 90%;
     text-align: center;
     font-size: 1.2em;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 0;
   }
   .bottom-features {
