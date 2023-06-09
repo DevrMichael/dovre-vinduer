@@ -587,6 +587,7 @@ header > div > button {
 
 .hero {
   display: flex;
+  gap: 10px;
   width: 90%;
   margin: 30px auto;
   justify-content: space-between;
