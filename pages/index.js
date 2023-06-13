@@ -121,7 +121,7 @@ function Home() {
         <h2>Dører</h2>
         <Slider slides={slides} />
       </div>
-      <div className="showroom-container">
+      {/* <div className="showroom-container">
         <div className="showroom-hero">
           <div className="left-showroom">
             <h1>Vårt Showroom</h1>
@@ -140,7 +140,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
