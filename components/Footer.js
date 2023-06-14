@@ -21,7 +21,7 @@ function Footer() {
           <a href="/kontakt">Kontakt</a>
         </div>
         <div className="footer-info">
-          <p>Dovre Vinduer AS 1475 Finstadjordet</p>
+          <p>Dovre Vinduer AS, 1475 Finstadjordet</p>
           <div className="footer-contact-section">
             <div className="footer-email-section">
               <FontAwesomeIcon icon={faEnvelope} style={{ color: '#FFF' }} />
