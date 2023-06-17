@@ -49,7 +49,7 @@ function AboutUs() {
           <p>
             Ta kontakt med oss i dag for mer utfyllende informasjon om våre
             produkter og tjenester. Send oss en mail på{' '}
-            <a href="mailto:naeem@dovrevinduer.no">naeem@dovrevinduer.no</a>{' '}
+            <a href="mailto:post@dovrevinduer.no">post@dovrevinduer.no</a>{' '}
             eller ring oss på tlf nr. 90 76 15 78.
           </p>
         </div>
