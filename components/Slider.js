@@ -1,9 +1,9 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import Image from 'next/image';
 
 export const Slider = ({ slides }) => {
   return (
@@ -15,11 +15,12 @@ export const Slider = ({ slides }) => {
       pagination={{ clickable: true }}
     >
       {slides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <a href={'/dorer/' + slide.id}>
+        <SwiperSlide key={index}>
+          <p className="doorTitle">{slide.title}</p>
+          <a href={'/dorer/' + slide.id}>
             <Image className="doorImage" src={slide.image} alt={slide.title} />
-            </a>
-          </SwiperSlide>
+          </a>
+        </SwiperSlide>
       ))}
     </Swiper>
   );

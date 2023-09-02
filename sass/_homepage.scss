@@ -218,7 +218,20 @@ header > div > button {
   width: 130px;
   height: 300px;
   margin-bottom: 35px;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
+
+.doorTitle {
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
 .slider-container {
   width: 80%;
   margin: auto;
