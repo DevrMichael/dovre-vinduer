@@ -87,6 +87,9 @@
     max-height: 300px;
     margin: 10px;
   }
+  .single-door {
+    width: 40%;
+  }
 }
 @media only screen and (max-width: 380px) {
   .door-grid > a > img {
