@@ -28,7 +28,8 @@ function Door() {
       </div>
       <div className="door-grid">
         {doors.map((door) => (
-          <a key={door.id} href={'/dorer/' + door.id}>
+          <a key={door.id} href={'/dorer/' + door.id} className="single-door">
+            <h3>{door.title}</h3>
             <Image src={door.image} alt="door" />
           </a>
         ))}

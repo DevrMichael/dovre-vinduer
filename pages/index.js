@@ -43,11 +43,11 @@ function Home() {
       </Head>
       <div className="hero">
         <div className="left-hero">
-          <h1>Vi Skaper et Godt fundament for hjemmet</h1>
+          <h1>Vinduer og Dører som Forvandler Hjemmet Ditt</h1>
           <p>
-            Riktig valg av dører og vinduer til hjemmet spiller en essensiell
-            rolle i øking av trivsel, trygghet og velvære. Der kan vi hjelpe
-            deg.
+            Valg av riktige dører og vinduer kan være avgjørende for hjemmets
+            komfort, sikkerhet, og livskvalitet. La oss være din guide til et
+            bedre hjem.
           </p>
           {/* <button className="primaryButton" onClick={redirectKontakt}>Kontakt Oss</button> */}
         </div>
@@ -58,8 +58,8 @@ function Home() {
           <div className="top-features">
             <h2>Vi tilbyr</h2>
             <p>
-              Vi tilbyr et bredt utvalg av vinduer og dører som passer for alle
-              typer prosjekter.
+              Vi leverer et omfattende utvalg av høykvalitets dører og vinduer
+              tilpasset ulike arkitektoniske behov og estetiske preferanser.
             </p>
           </div>
           <div className="bottom-features">
