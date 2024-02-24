@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# High-End Windows and Doors Company Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Next.js project showcases a company specializing in high-end windows and doors. It serves as a digital portfolio to display various products, emphasizing the blend of aesthetic appeal with functionality and durability. The website aims to provide comprehensive information on premium products, helping customers make informed decisions.
+
+![DV-readme](https://github.com/DevrMichael/dovre-vinduer/assets/88589247/e3230789-f163-4172-9621-e94b240b790d)
+![DV-doors](https://github.com/DevrMichael/dovre-vinduer/assets/88589247/186a30c0-aad1-46b2-8ebb-73b606b83b7a)
+
+
+## Getting Started
+
+To get the project up and running, follow these steps:
+
+1. **Install dependencies**
+
+```bash
+npm install
+```
+# or
+```bash
+yarn install
+```
+
+2. **Run the development server**
+```bash
+npm run dev
+```
+# or
+```bash
+yarn dev
+```
+Visit http://localhost:3000 to view the application in your browser.
+
+## Technologies Used
+
+- **Next.js**: A React framework for production, providing server-side rendering and generating static websites.
+- **SASS**: A preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS), allowing more advanced styling with variables, nested rules, mixins, functions, and more.
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `npm start` or `yarn start`: Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+- `npm test` or `yarn test`: Launches the test runner in the interactive watch mode.
+- `npm run build` or `yarn build`: Builds the app for production to the `build` folder.
+- `npm run eject` or `yarn eject`: **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- For Next.js, visit [Next.js documentation](https://nextjs.org/docs).
+- For SASS, see the [SASS documentation](https://sass-lang.com/documentation).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+The project is ready to be deployed. Refer to the Next.js [deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! Please read the contributing guidelines before submitting pull requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
