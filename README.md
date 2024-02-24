@@ -50,11 +50,3 @@ Visit http://localhost:3000 to view the application in your browser.
 ## Deployment
 
 The project is ready to be deployed. Refer to the Next.js [deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Contributing
-
-Contributions are welcome! Please read the contributing guidelines before submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
