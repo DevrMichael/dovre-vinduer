@@ -91,7 +91,9 @@ function Contact() {
             onChange={handleChange}
             required
           ></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" className="full-width-button">
+            Send
+          </button>
         </form>
         {status.message && (
           <div
@@ -121,6 +123,25 @@ function Contact() {
           color: #721c24;
           background-color: #f8d7da;
           border: 1px solid #f5c6cb;
+        }
+        .contact-form {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+        }
+        .full-width-button {
+          width: 100%;
+          padding: 1rem;
+          font-size: 16px;
+          font-weight: bold;
+          border: none;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: white;
+          cursor: pointer;
+        }
+        .full-width-button:hover {
+          background-color: #0056b3;
         }
       `}</style>
     </div>
