@@ -1,7 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' }); // Reset form
+      } else {
+        alert('Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('An error occurred. Please try again.');
+    }
+  };
+
   return (
     <div className="contact-form-background">
       <Head>
@@ -21,15 +59,34 @@ function Contact() {
           <a href="mailto:post@dovrevinduer.no">her</a> eller ring oss på tlf.{' '}
           <a href="tel:004790761578">90761578</a>.
         </p>
-        {/* <form className='contact-form'>
-        <label htmlFor="name">Name</label>
-        <input type="text" />
-        <label htmlFor="email">Email</label>
-        <input type="email" />
-        <label htmlFor="textarea">Message</label>
-        <textarea name="textarea" id="" cols="30" rows="10"></textarea>
-        <button>Send Message</button>
-      </form> */}
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <label htmlFor="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+          <label htmlFor="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+          <label htmlFor="message">Message</label>
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
       </div>
     </div>
   );
