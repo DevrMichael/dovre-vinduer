@@ -8,6 +8,50 @@ import Head from 'next/head';
 
 function Home() {
   const router = useRouter();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [status, setStatus] = useState({ type: '', message: '' });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus({ type: 'success', message: 'Meldingen ble sendt!' });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setStatus({
+          type: 'error',
+          message: 'Kunne ikke sende meldingen. Vennligst prøv igjen.',
+        });
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      setStatus({
+        type: 'error',
+        message: 'Det oppstod en feil. Vennligst prøv igjen senere.',
+      });
+    }
+  };
 
   const redirectGilje = () => {
     let path = `/giljesense`;
@@ -26,11 +70,7 @@ function Home() {
     router.push(path);
     window.scrollTo(0, 0);
   };
-  // const redirectKontakt = () => {
-  //   let path = `/kontakt`;
-  //   navigate(path);
-  //   window.scrollTo(0, 0);
-  // };
+
   return (
     <div>
       <Head>
@@ -49,7 +89,6 @@ function Home() {
             komfort, sikkerhet, og livskvalitet. La oss være din guide til et
             bedre hjem.
           </p>
-          {/* <button className="primaryButton" onClick={redirectKontakt}>Kontakt Oss</button> */}
         </div>
         <div className="right-hero"></div>
       </div>
@@ -109,38 +148,115 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="window-container-header">
-        <FontAwesomeIcon icon={faInfoCircle} /> <br />
-        <p>
-          Visste du at du kan spare stort på strømregningen KUN ved å bytte ut
-          enkelte av dine vinduer?
-        </p>
-      </div> */}
       <Windows />
       <div className="slider-container">
         <h2>Dører</h2>
         <Slider slides={slides} />
       </div>
-      {/* <div className="showroom-container">
-        <div className="showroom-hero">
-          <div className="left-showroom">
-            <h1>Vårt Showroom</h1>
-            <p>Vårt showroom er lokalisert sentralt i Lørenskog.</p>
+      {/* Contact Form Section */}
+      <div className="contact-section">
+        <h2>Kontakt Oss</h2>
+        <p className="contact-description">
+          Har du spørsmål om våre produkter eller tjenester? Fyll ut skjemaet
+          nedenfor, så tar vi kontakt med deg så snart som mulig.
+        </p>
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <label htmlFor="name">Navn</label>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+          <label htmlFor="email">E-post</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+          <label htmlFor="message">Melding</label>
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit" className="primaryButton">
+            Send Melding
+          </button>
+        </form>
+        {status.message && (
+          <div
+            className={`status-message ${
+              status.type === 'success' ? 'success' : 'error'
+            }`}
+          >
+            {status.message}
           </div>
-          <div className="right-showroom">
-            <div className="homepage-map-container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7999.16456601887!2d10.963038206870166!3d59.919013545974245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464164c394b6a437%3A0x88feb36d7b578051!2zU8O4cmxpLCAxNDczIEzDuHJlbnNrb2csIE5vcmdl!5e0!3m2!1sno!2sus!4v1679138144514!5m2!1sno!2sus"
-                title="map"
-                width="600"
-                height="500"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </div> */}
+        )}
+      </div>
+      <style jsx>{`
+        .contact-section {
+          margin: 40px auto;
+          padding: 20px;
+          background-color: #f9f9f9;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+        .contact-form label {
+          font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+        .primaryButton {
+          width: 100%;
+          padding: 10px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        .primaryButton:hover {
+          background-color: #0056b3;
+        }
+        .status-message {
+          margin-top: 20px;
+          padding: 10px;
+          border-radius: 5px;
+          text-align: center;
+          font-size: 14px;
+        }
+        .status-message.success {
+          background-color: #d4edda;
+          color: #155724;
+        }
+        .status-message.error {
+          background-color: #f8d7da;
+          color: #721c24;
+        }
+        .contact-description {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-size: 16px;
+          color: #555;
+        }
+      `}</style>
     </div>
   );
 }
