@@ -8,6 +8,8 @@ function Contact() {
     message: '',
   });
 
+  const [status, setStatus] = useState({ type: '', message: '' });
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -29,14 +31,20 @@ function Contact() {
       });
 
       if (response.ok) {
-        alert('Message sent successfully!');
+        setStatus({ type: 'success', message: 'Meldingen ble sendt!' });
         setFormData({ name: '', email: '', message: '' }); // Reset form
       } else {
-        alert('Failed to send message. Please try again.');
+        setStatus({
+          type: 'error',
+          message: 'Kunne ikke sende meldingen. Vennligst prøv igjen.',
+        });
       }
     } catch (error) {
       console.error('Error sending message:', error);
-      alert('An error occurred. Please try again.');
+      setStatus({
+        type: 'error',
+        message: 'Det oppstod en feil. Vennligst prøv igjen senere.',
+      });
     }
   };
 
@@ -87,7 +95,36 @@ function Contact() {
           ></textarea>
           <button type="submit">Send Message</button>
         </form>
+        {status.message && (
+          <div
+            className={`status-message ${
+              status.type === 'success' ? 'success' : 'error'
+            }`}
+          >
+            {status.message}
+          </div>
+        )}
       </div>
+      <style jsx>{`
+        .status-message {
+          margin-top: 20px;
+          padding: 10px;
+          border-radius: 5px;
+          text-align: center;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        .status-message.success {
+          color: #155724;
+          background-color: #d4edda;
+          border: 1px solid #c3e6cb;
+        }
+        .status-message.error {
+          color: #721c24;
+          background-color: #f8d7da;
+          border: 1px solid #f5c6cb;
+        }
+      `}</style>
     </div>
   );
 }
