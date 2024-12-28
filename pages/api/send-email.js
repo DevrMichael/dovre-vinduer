@@ -16,8 +16,8 @@ export default async function handler(req, res) {
     host: 'smtp.gmail.com', // e.g., smtp.gmail.com
     port: 587, // Use 465 for secure connections
     auth: {
-      user: process.env.EMAIL_USER, // Your email address
-      pass: process.env.EMAIL_PASS, // Your email password
+      user: 'bismics@gmail.com', // Your email address
+      pass: 'fuhv pevi salz pzxf', // Your email password
     },
   });
 
