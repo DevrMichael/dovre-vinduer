@@ -185,7 +185,7 @@ function Home() {
             rows="5"
             required
           ></textarea>
-          <button type="submit" className="primaryButton">
+          <button type="submit" className="contactButton">
             Send Melding
           </button>
         </form>
@@ -222,7 +222,7 @@ function Home() {
           border: 1px solid #ccc;
           border-radius: 5px;
         }
-        .primaryButton {
+        .contactButton {
           width: 100%;
           padding: 10px;
           background-color: #007bff;
@@ -232,7 +232,7 @@ function Home() {
           font-size: 16px;
           cursor: pointer;
         }
-        .primaryButton:hover {
+        .contactButton:hover {
           background-color: #0056b3;
         }
         .status-message {
