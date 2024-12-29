@@ -7,12 +7,14 @@ import Footer from '../components/Footer';
 
 // GA4 Measurement ID
 const GA_TRACKING_ID = 'G-FCK1NSGY19';
+// Hotjar Site ID
+const HOTJAR_SITE_ID = 5252734;
 
 function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
-    // Function to track page views
+    // Google Analytics: Track page views on route changes
     const handleRouteChange = (url) => {
       window.gtag('config', GA_TRACKING_ID, {
         page_path: url,
@@ -26,9 +28,32 @@ function App({ Component, pageProps }) {
     };
   }, [router.events]);
 
+  useEffect(() => {
+    // Hotjar initialization
+    (function (c, s, q, u, a, r, e) {
+      c.hj =
+        c.hj ||
+        function () {
+          (c.hj.q = c.hj.q || []).push(arguments);
+        };
+      c._hjSettings = { hjid: a };
+      r = s.getElementsByTagName('head')[0];
+      e = s.createElement('script');
+      e.async = true;
+      e.src = q + c._hjSettings.hjid + u;
+      r.appendChild(e);
+    })(
+      window,
+      document,
+      'https://static.hj.contentsquare.net/c/csq-',
+      '.js',
+      HOTJAR_SITE_ID
+    );
+  }, []);
+
   return (
     <>
-      {/* Add Google Analytics Script */}
+      {/* Google Analytics Script */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
         strategy="afterInteractive"
