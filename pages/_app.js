@@ -28,29 +28,6 @@ function App({ Component, pageProps }) {
     };
   }, [router.events]);
 
-  useEffect(() => {
-    // Hotjar initialization
-    (function (c, s, q, u, a, r, e) {
-      c.hj =
-        c.hj ||
-        function () {
-          (c.hj.q = c.hj.q || []).push(arguments);
-        };
-      c._hjSettings = { hjid: a };
-      r = s.getElementsByTagName('head')[0];
-      e = s.createElement('script');
-      e.async = true;
-      e.src = q + c._hjSettings.hjid + u;
-      r.appendChild(e);
-    })(
-      window,
-      document,
-      'https://static.hj.contentsquare.net/c/csq-',
-      '.js',
-      HOTJAR_SITE_ID
-    );
-  }, []);
-
   return (
     <>
       {/* Google Analytics Script */}
@@ -69,6 +46,24 @@ function App({ Component, pageProps }) {
             gtag('config', '${GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
+          `,
+        }}
+      />
+
+      {/* Hotjar Script */}
+      <Script
+        id="hotjar-script"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(c,s,q,u,a,r,e){
+              c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
+              c._hjSettings={hjid:${HOTJAR_SITE_ID},hjsv:6};
+              r=s.getElementsByTagName('head')[0];
+              e=s.createElement('script');e.async=1;
+              e.src=q+c._hjSettings.hjid+u;
+              r.appendChild(e);
+            })(window,document,'https://static.hj.contentsquare.net/c/csq-','.js');
           `,
         }}
       />
