@@ -66,7 +66,7 @@ function Contact() {
           produkter og tjenester.
         </p>
         <form className="contact-form" onSubmit={handleSubmit}>
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Navn</label>
           <input
             type="text"
             name="name"
@@ -74,7 +74,7 @@ function Contact() {
             onChange={handleChange}
             required
           />
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">E-mail</label>
           <input
             type="email"
             name="email"
@@ -82,7 +82,7 @@ function Contact() {
             onChange={handleChange}
             required
           />
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Melding</label>
           <textarea
             name="message"
             cols="30"
