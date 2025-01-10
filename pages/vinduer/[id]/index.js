@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import windows from '../../../data/window';
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 function WindowProduct() {
   const router = useRouter();
@@ -40,6 +41,19 @@ function WindowProduct() {
             <br />
             <p>{pageContent}</p>
           </div>
+          <br />
+          <p>Ta kontakt for mer utfyllende informasjon.</p>
+          <br />
+          <Link href="/kontakt">
+            <button
+              className="primaryButton"
+              style={{
+                width: '80%',
+              }}
+            >
+              Ta kontakt
+            </button>
+          </Link>
         </div>
       </div>
     </div>

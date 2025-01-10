@@ -1,56 +1,67 @@
 .door-product-container {
-    display: flex;
+  display: flex;
+  width: 80%;
+  margin: 80px auto;
+  justify-content: space-between;
+}
+.door-product-image {
+  width: 55%;
+  margin: auto;
+  background-color: white;
+}
+.door-product-image > h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.door-product-image > img {
+  display: flex;
+  margin: 20px auto;
+  width: 30%;
+}
+.door-product-info {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.door-product-info > div > h3 {
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.door-product-contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.door-product-contact-info > button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .door-product-container {
+    display: block;
     width: 80%;
-    margin: 80px auto;
-    justify-content: space-between;
-  }
-  .door-product-image {
-    width: 55%;
-    margin: auto;
-    background-color: white;
-  }
-  .door-product-image>h2 {
-    text-transform: uppercase;
-    text-align: center;
-  }
-  .door-product-image > img {
-    display: flex;
     margin: 20px auto;
-    width: 30%;
   }
   .door-product-info {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .door-product-image {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 30px;
+  }
+  .door-product-image > img {
     width: 50%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    align-items: center;
   }
-  .door-product-info > div > h3 {
-    text-transform: uppercase;
-    margin-bottom: 9px;
+  .door-product-info > div {
+    padding: 15px 0;
   }
-
-  @media only screen and (max-width: 768px) {
-    .door-product-container {
-      display: block;
-      width: 80%;
-      margin: 20px auto;
-    }
-    .door-product-info {
-      width: 90%;
-      margin: auto;
-      display: block;
-    }
-    .door-product-image {
-      width: 100%;
-      margin: auto;
-      background-color: white;
-      padding-bottom: 30px;
-    }
-    .door-product-image > img {
-      width: 50%;
-    }
-    .door-product-info > div {
-      padding: 15px 0;
-    }
-   }
+}

@@ -89,6 +89,17 @@ function Home() {
             komfort, sikkerhet, og livskvalitet. La oss være din guide til et
             bedre hjem.
           </p>
+          <br />
+          <Link href="/omoss">
+            <button
+              className="primaryButton"
+              style={{
+                width: '80%',
+              }}
+            >
+              Les Mer
+            </button>
+          </Link>
         </div>
         <div className="right-hero"></div>
       </div>
@@ -131,6 +142,18 @@ function Home() {
               tilbyr et bredt utvalg av vinduer og dører som passer for alle og
               enhver.
             </p>
+
+            <br />
+            <Link href="/kontakt">
+              <button
+                className="primaryButton"
+                style={{
+                  width: '80%',
+                }}
+              >
+                Kontakt oss
+              </button>
+            </Link>
           </div>
         </div>
         <div className="mini-hero-overflow-div">

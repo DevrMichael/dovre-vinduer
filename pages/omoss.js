@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 function AboutUs() {
   return (
@@ -40,6 +41,29 @@ function AboutUs() {
             holder lenge. I tillegg gir vi våre kunder 20 års garanti på våre
             vinduer, balkongdører og skyverdører.
           </p>
+          <br />
+          <Link href="/dorer">
+            <button
+              className="primaryButton"
+              style={{
+                width: '80%',
+              }}
+            >
+              Dører
+            </button>
+          </Link>
+          <br />
+          <br />
+          <Link href="/vinduer">
+            <button
+              className="primaryButton"
+              style={{
+                width: '80%',
+              }}
+            >
+              Vinduer
+            </button>
+          </Link>
         </div>
         <div className="about-us__left-hero"></div>
       </div>
@@ -48,10 +72,18 @@ function AboutUs() {
           <h1>Ta kontakt</h1>
           <p>
             Ta kontakt med oss i dag for mer utfyllende informasjon om våre
-            produkter og tjenester. Send oss en mail på{' '}
-            <a href="mailto:post@dovrevinduer.no">post@dovrevinduer.no</a>{' '}
-            eller ring oss på tlf nr. 90 76 15 78.
+            produkter og tjenester.
           </p>
+          <Link href="/kontakt">
+            <button
+              className="primaryButton"
+              style={{
+                width: '80%',
+              }}
+            >
+              Kontakt Oss
+            </button>
+          </Link>
         </div>
         <div className="about-us__right-hero-second"></div>
       </div>

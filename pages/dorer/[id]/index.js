@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import doors from '../../../data/door';
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 function DoorProduct() {
   const router = useRouter();
@@ -53,6 +54,22 @@ function DoorProduct() {
             <p>Høyde kan leveres inntil 239 cm.</p>
           </div>
         </div>
+      </div>
+      <div className="door-product-contact-info">
+        <br />
+        <p>Ta kontakt for mer utfyllende informasjon.</p>
+        <br />
+        <Link href="/kontakt">
+          <button
+            className="primaryButton"
+            style={{
+              width: '100%',
+            }}
+          >
+            Ta kontakt
+          </button>
+        </Link>
+        <br />
       </div>
     </div>
   );
