@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
-import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faX, faPhone } from '@fortawesome/free-solid-svg-icons';
 import dynamic from 'next/dynamic';
@@ -17,15 +16,15 @@ function NavBar() {
   return (
     <div>
       <header>
-      <Link style={{ color: 'black', textDecoration: 'none' }} href={'/'}>
-        <Image
-          src={logo}
-          width={100}
-          height={100}
-          alt="dovre vinduer logo"
-          className="logo"
-        />
-          </Link>
+        <Link style={{ color: 'black', textDecoration: 'none' }} href={'/'}>
+          <Image
+            src={logo}
+            width={100}
+            height={100}
+            alt="dovre vinduer logo"
+            className="logo"
+          />
+        </Link>
         <nav className="nav-container">
           <Link style={{ color: 'black', textDecoration: 'none' }} href={'/'}>
             Hjem
@@ -54,6 +53,14 @@ function NavBar() {
           >
             Om oss
           </Link>
+          <button className="primaryButton kontakt-button">
+            <Link
+              style={{ color: 'white', textDecoration: 'none' }}
+              href={'/kontakt'}
+            >
+              Kontakt
+            </Link>
+          </button>
         </nav>
         <div className="nav-contact-section">
           <FontAwesomeIcon
@@ -64,14 +71,6 @@ function NavBar() {
           <a className="nav-phone-number" href="tel:004790761578">
             +47 90761578
           </a>
-          <button className="primaryButton">
-            <Link
-              style={{ color: 'white', textDecoration: 'none' }}
-              href={'/kontakt'}
-            >
-              Kontakt
-            </Link>
-          </button>
         </div>
         <div className="hamburger-menu">
           {!isOpen && (
@@ -90,54 +89,60 @@ function NavBar() {
                 </span>
               </button>
               <ul className="hamburger-menu__list">
-                <button className="hamburger-menu__item" onClick={toggleMenu}>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
                   <Link
                     style={{ color: '#000', textDecoration: 'none' }}
                     href="/"
                   >
                     Hjem
                   </Link>
-                </button>
-                <button className="hamburger-menu__item" onClick={toggleMenu}>
+                </li>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
                   <Link
                     style={{ color: '#000', textDecoration: 'none' }}
                     href="/vinduer"
                   >
                     Vinduer
                   </Link>
-                </button>
-                <button className="hamburger-menu__item" onClick={toggleMenu}>
+                </li>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
                   <Link
                     style={{ color: '#000', textDecoration: 'none' }}
                     href="/dorer"
                   >
                     Dører
                   </Link>
-                </button>
-                <button className="hamburger-menu__item" onClick={toggleMenu}>
+                </li>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
                   <Link
                     style={{ color: '#000', textDecoration: 'none' }}
                     href="/giljesense"
                   >
                     Gilje Sense
                   </Link>
-                </button>
-                <button className="hamburger-menu__item" onClick={toggleMenu}>
+                </li>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
                   <Link
                     style={{ color: '#000', textDecoration: 'none' }}
                     href="/omoss"
                   >
-                    Om Oss
+                    Om oss
                   </Link>
-                </button>
-                <button className="hamburger-menu__item" onClick={toggleMenu}>
+                </li>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
                   <Link
-                    style={{ color: '#000', textDecoration: 'none' }}
                     href="/kontakt"
+                    style={{
+                      backgroundColor: 'darkslategray',
+                      color: 'white',
+                      padding: '10px 20px',
+                      textDecoration: 'none',
+                      display: 'inline-block',
+                    }}
                   >
                     Kontakt
                   </Link>
-                </button>
+                </li>
               </ul>
             </nav>
           )}
