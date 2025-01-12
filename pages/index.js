@@ -11,6 +11,7 @@ function Home() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     message: '',
   });
   const [status, setStatus] = useState({ type: '', message: '' });
@@ -37,7 +38,7 @@ function Home() {
 
       if (response.ok) {
         setStatus({ type: 'success', message: 'Meldingen ble sendt!' });
-        setFormData({ name: '', email: '', message: '' });
+        setFormData({ name: '', email: '', phone: '', message: '' });
       } else {
         setStatus({
           type: 'error',
@@ -197,6 +198,14 @@ function Home() {
             type="email"
             name="email"
             value={formData.email}
+            onChange={handleChange}
+            required
+          />
+          <label htmlFor="phone">Telefonnummer</label>
+          <input
+            type="tel"
+            name="phone"
+            value={formData.phone}
             onChange={handleChange}
             required
           />
