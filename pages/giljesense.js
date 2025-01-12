@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 function GiljeSense() {
   return (
@@ -36,14 +37,22 @@ function GiljeSense() {
             du er på butikken, jobb eller på reise. <br /> <br />
             Kontakt oss for mer utfyllende informasjon.
           </p>
+          <Link
+            href="/kontakt"
+            className="primaryButton"
+            style={{ textDecoration: 'none' }}
+          >
+            Kontakt oss
+          </Link>
         </div>
         <div className="gilje-sense__container__right-hero">
           <iframe
             title="vimeo-player"
-            src="https://player.vimeo.com/video/238541686?h=feab716ecf"
+            src="https://player.vimeo.com/video/238541686?h=feab716ecf&muted=false"
             width="640"
             height="360"
-            frameborder="0"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           ></iframe>
         </div>
