@@ -61,6 +61,15 @@ function NavBar() {
               Kontakt
             </Link>
           </button>
+          <button className="secondaryButton mittanbud-button">
+            <Link
+              style={{ color: 'white', textDecoration: 'none' }}
+              href={'https://mittanbud.no/bedrift/3550325'}
+              target="_blank"
+            >
+              Mitt Anbud
+            </Link>
+          </button>
         </nav>
         <div className="nav-contact-section">
           <FontAwesomeIcon
@@ -135,12 +144,25 @@ function NavBar() {
                     style={{
                       backgroundColor: 'darkslategray',
                       color: 'white',
-                      padding: '10px 20px',
+                      padding: '20px 20px',
+                      marginTop: '20px',
                       textDecoration: 'none',
                       display: 'inline-block',
                     }}
                   >
                     Kontakt
+                  </Link>
+                </li>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
+                  <Link
+                    href="https://mittanbud.no/bedrift/3550325"
+                    className="secondaryButton"
+                    style={{
+                      textDecoration: 'none',
+                      display: 'inline-block',
+                    }}
+                  >
+                    Mitt Anbud
                   </Link>
                 </li>
               </ul>

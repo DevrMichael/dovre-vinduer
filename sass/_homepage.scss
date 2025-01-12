@@ -8,12 +8,24 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .nav-contact-section {
+  a {
+    text-decoration: underline;
+    color: #94af9f;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+  }
   .nav-phone-number {
     text-decoration: none;
     color: #94af9f;
     padding-right: 1rem;
     font-size: 0.9rem;
   }
+}
+.kontakt-button {
+  margin-left: 40px;
+}
+.mittanbud-button {
+  margin-left: 20px;
 }
 header {
   display: flex;
