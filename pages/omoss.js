@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function AboutUs() {
   return (
-    <div className="about-us__container">
+    <div className="about-us__container container">
       <Head>
         <title>Dovre Vinduer | Om Oss</title>
         <meta

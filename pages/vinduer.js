@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 function Window() {
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>Dovre Vinduer | Vinduer</title>
         <meta

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function GiljeSense() {
   return (
-    <div className="gilje-sense__container">
+    <div className="gilje-sense__container container">
       <Head>
         <title>Dovre Vinduer | Gilje Sense</title>
         <meta

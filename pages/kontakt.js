@@ -50,7 +50,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact-form-background">
+    <div className="contact-form-background container">
       <Head>
         <title>Dovre Vinduer | Kontakt Oss</title>
         <meta

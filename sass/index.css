@@ -620,7 +620,6 @@ header {
   width: 100%;
   background-color: white;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header > nav > a {
@@ -639,7 +638,7 @@ header > div > button {
   border-radius: 3px;
 }
 
-.home-container {
+.container {
   padding-top: 140px;
 }
 

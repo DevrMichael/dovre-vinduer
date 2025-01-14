@@ -5,7 +5,7 @@ import Head from 'next/head.js';
 
 function Door() {
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>Dovre Vinduer | Dører</title>
         <meta

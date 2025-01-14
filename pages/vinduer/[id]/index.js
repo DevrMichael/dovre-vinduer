@@ -24,7 +24,7 @@ function WindowProduct() {
   }, [id]);
 
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>{title}</title>
         <meta name="description" content="Vinduer fra Gilje " key="desc" />

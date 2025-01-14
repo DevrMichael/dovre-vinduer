@@ -20,7 +20,7 @@ function DoorProduct() {
   }, [id]);
 
   return (
-    <div className="door-product-background">
+    <div className="door-product-background container">
       <Head>
         <title>{title}</title>
         <meta name="description" content="Dører fra Gilje" key="desc" />

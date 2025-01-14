@@ -73,7 +73,7 @@ function Home() {
   };
 
   return (
-    <div className="home-container">
+    <div className="container">
       <Head>
         <title>Dovre Vinduer</title>
         <meta
