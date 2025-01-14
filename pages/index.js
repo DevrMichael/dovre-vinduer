@@ -73,7 +73,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className="home-container">
       <Head>
         <title>Dovre Vinduer</title>
         <meta
@@ -96,6 +96,7 @@ function Home() {
               className="primaryButton"
               style={{
                 width: '80%',
+                marginBottom: '30px',
               }}
             >
               Les Mer

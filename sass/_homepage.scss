@@ -32,6 +32,12 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 20px 0;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 header > nav > a {
   padding: 0 12px;
@@ -46,6 +52,9 @@ header > div > button {
   background-color: white;
   border: none;
   border-radius: 3px;
+}
+.home-container {
+  padding-top: 140px;
 }
 .logo {
   text-transform: uppercase;
