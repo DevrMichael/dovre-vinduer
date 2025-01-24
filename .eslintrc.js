@@ -9,15 +9,8 @@ module.exports = {
     },
   },
   plugins: ['@typescript-eslint'],
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'next/core-web-vitals',
-  ],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
   rules: {
-    // Define any specific ESLint rules here
-    'no-unused-vars': 'warn',
-    '@typescript-eslint/no-unused-vars': 'warn',
-    'react/react-in-jsx-scope': 'off',
+    // Add any specific ESLint rules you want here
   },
 };
