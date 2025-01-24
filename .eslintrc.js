@@ -15,6 +15,9 @@ module.exports = {
     'next/core-web-vitals',
   ],
   rules: {
-    // Add any specific ESLint rules you want here
+    // Define any specific ESLint rules here
+    'no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'warn',
+    'react/react-in-jsx-scope': 'off',
   },
 };
