@@ -12,7 +12,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'next/core-web-vitals',
+    'next',
+    'next/core-web-vitals', // Includes Next.js-specific rules for Core Web Vitals
   ],
   rules: {
     // Add any specific ESLint rules you want here
