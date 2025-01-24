@@ -9,7 +9,11 @@ module.exports = {
     },
   },
   plugins: ['@typescript-eslint'],
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'next/core-web-vitals',
+  ],
   rules: {
     // Add any specific ESLint rules you want here
   },
