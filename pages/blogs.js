@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { client } from '../src/sanity/lib/client'; // Adjust path to the Sanity client
+import { client } from '../src/sanity/lib/client';
 
 const POSTS_QUERY = `*[_type == "post"]{
   _id,
@@ -12,9 +12,7 @@ const POSTS_QUERY = `*[_type == "post"]{
     },
     alt
   },
-  "categories": categories[]->title,
-  publishedAt,
-  body
+  publishedAt
 }`;
 
 export default function BlogsPage({ posts }) {
@@ -38,7 +36,11 @@ export default function BlogsPage({ posts }) {
               <h2 className="text-2xl font-semibold mb-2">{post.title}</h2>
               {post.publishedAt && (
                 <p className="text-gray-500 text-sm">
-                  Published on {new Date(post.publishedAt).toLocaleDateString()}
+                  {new Intl.DateTimeFormat('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  }).format(new Date(post.publishedAt))}
                 </p>
               )}
               <Link
@@ -56,7 +58,6 @@ export default function BlogsPage({ posts }) {
 }
 
 export async function getServerSideProps() {
-  // Fetch posts from Sanity
   const posts = await client.fetch(POSTS_QUERY);
 
   return {
