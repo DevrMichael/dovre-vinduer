@@ -17,25 +17,22 @@ const POSTS_QUERY = `*[_type == "post"]{
 
 export default function BlogsPage({ posts }) {
   return (
-    <main className="container mx-auto grid grid-cols-1 gap-6 p-12">
-      <h1 className="text-4xl font-bold">Artikler</h1>
-      <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <main className="blogs-page">
+      <h1>Artikler</h1>
+      <ul className="articles-grid">
         {posts.map((post) => (
-          <li
-            key={post._id}
-            className="border rounded-lg overflow-hidden shadow-md"
-          >
+          <li key={post._id} className="article-card">
             {post.mainImage?.asset?.url && (
               <img
                 src={post.mainImage.asset.url}
                 alt={post.mainImage.alt || post.title}
-                className="w-full h-48 object-cover main-image"
+                className="main-image"
               />
             )}
-            <div className="p-4">
-              <h2 className="text-2xl font-semibold mb-2">{post.title}</h2>
+            <div className="content">
+              <h2>{post.title}</h2>
               {post.publishedAt && (
-                <p className="text-gray-500 text-sm">
+                <p>
                   {new Intl.DateTimeFormat('en-US', {
                     year: 'numeric',
                     month: 'long',
@@ -43,12 +40,7 @@ export default function BlogsPage({ posts }) {
                   }).format(new Date(post.publishedAt))}
                 </p>
               )}
-              <Link
-                href={`/artikler/${post.slug.current}`}
-                className="text-blue-500 hover:underline"
-              >
-                Read more
-              </Link>
+              <Link href={`/artikler/${post.slug.current}`}>Les mer</Link>
             </div>
           </li>
         ))}
