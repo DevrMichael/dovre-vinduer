@@ -53,6 +53,12 @@ function NavBar() {
           >
             Om oss
           </Link>
+          <Link
+            style={{ color: 'black', textDecoration: 'none' }}
+            href={'/artikler'}
+          >
+            Nyttig
+          </Link>
           <button className="primaryButton kontakt-button">
             <Link
               style={{ color: 'white', textDecoration: 'none' }}
@@ -136,6 +142,14 @@ function NavBar() {
                     href="/omoss"
                   >
                     Om oss
+                  </Link>
+                </li>
+                <li className="hamburger-menu__item" onClick={toggleMenu}>
+                  <Link
+                    style={{ color: '#000', textDecoration: 'none' }}
+                    href="/artikler"
+                  >
+                    Nyttig{' '}
                   </Link>
                 </li>
                 <li className="hamburger-menu__item" onClick={toggleMenu}>
