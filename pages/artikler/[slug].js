@@ -17,7 +17,6 @@ const BlogPage = ({ blog }) => {
           className="main-image"
         />
       )}
-      <p>{new Date(blog.publishedAt).toDateString()}</p>
       <div className="blog-content">
         <PortableText value={blog.body} />
       </div>

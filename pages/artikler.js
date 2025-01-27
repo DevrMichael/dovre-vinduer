@@ -44,7 +44,7 @@ export default function BlogsPage({ posts }) {
                 </p>
               )}
               <Link
-                href={`/blogs/${post.slug.current}`}
+                href={`/artikler/${post.slug.current}`}
                 className="text-blue-500 hover:underline"
               >
                 Read more
