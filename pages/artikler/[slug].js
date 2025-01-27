@@ -1,10 +1,11 @@
 import React from 'react';
 import { PortableText } from '@portabletext/react';
 import { client } from '../../src/sanity/lib/client';
+import Link from 'next/link';
 
 const BlogPage = ({ blog }) => {
   if (!blog) {
-    return <div>Artikkel ikke funnet</div>;
+    return <div className="not-found">Artikkel ikke funnet</div>;
   }
 
   return (
@@ -20,6 +21,18 @@ const BlogPage = ({ blog }) => {
       <div className="blog-content">
         <PortableText value={blog.body} />
       </div>
+      <Link href="/kontakt">
+        <button
+          className="primaryButton"
+          style={{
+            margin: '2rem 0',
+            padding: '1rem',
+            width: '100%',
+          }}
+        >
+          Kontakt oss for mer informasjon
+        </button>
+      </Link>
     </div>
   );
 };

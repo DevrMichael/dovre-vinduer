@@ -1,0 +1,66 @@
+/* Global styles for articles (blog posts) */
+.blog-page {
+  max-width: 900px; /* Restrict overall width for readability */
+  margin: 2rem auto; /* Center content and add vertical spacing */
+  margin-top: 8rem;
+  padding: 1.5rem;
+  background-color: #ffffff; /* Light background for contrast */
+  font-family: 'Arial', sans-serif;
+}
+
+.blog-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333; /* Darker text color for better contrast */
+  text-align: center;
+}
+
+.blog-page h3 {
+  padding-top: 1rem;
+}
+
+.main-image {
+  max-width: 90%; /* Keep image within the container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  margin: 2rem auto; /* Add spacing and center the image */
+  display: block; /* Ensure the image stays centered */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add depth to the image */
+}
+
+.blog-content {
+  font-size: 1.125rem; /* Slightly larger text for readability */
+  line-height: 1.8; /* Better line spacing for long-form content */
+  color: #555; /* Neutral text color for content */
+}
+
+.blog-content a {
+  color: #0070f3; /* Accent color for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-content a:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}
+
+.not-found {
+  text-align: center; /* Center the error message */
+  color: #999; /* Grey color for error text */
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .blog-page {
+    padding: 1rem;
+  }
+
+  .blog-page h1 {
+    font-size: 2rem;
+  }
+
+  .blog-content {
+    font-size: 1rem;
+  }
+}
