@@ -18,7 +18,7 @@ const POSTS_QUERY = `*[_type == "post"]{
 export default function BlogsPage({ posts }) {
   return (
     <main className="blogs-page">
-      <h1>Artikler</h1>
+      <h1>Nyttig informasjon</h1>
       <ul className="articles-grid">
         {posts.map((post) => (
           <li key={post._id} className="article-card">
