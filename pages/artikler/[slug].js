@@ -4,7 +4,7 @@ import { client } from '../../src/sanity/lib/client';
 
 const BlogPage = ({ blog }) => {
   if (!blog) {
-    return <div>Blog not found</div>;
+    return <div>Artikkel ikke funnet</div>;
   }
 
   return (
@@ -19,14 +19,14 @@ const BlogPage = ({ blog }) => {
       )}
       <p>{new Date(blog.publishedAt).toDateString()}</p>
       <div className="blog-content">
-        <PortableText value={blog.body} /> {/* Render rich text */}
+        <PortableText value={blog.body} />
       </div>
     </div>
   );
 };
 
 export async function getStaticPaths() {
-  const query = `*[_type == "post"]{ slug }`; // Update "blog" to "post" if necessary
+  const query = `*[_type == "post"]{ slug }`;
   const blogs = await client.fetch(query);
 
   const paths = blogs.map((blog) => ({
@@ -40,7 +40,7 @@ export async function getStaticProps(context) {
   const { slug } = context.params;
 
   const query = `
-    *[_type == "post" && slug.current == $slug][0]{ // Update "blog" to "post" if necessary
+    *[_type == "post" && slug.current == $slug][0]{
       title,
       body,
       mainImage{
