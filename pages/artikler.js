@@ -22,26 +22,29 @@ export default function BlogsPage({ posts }) {
       <ul className="articles-grid">
         {posts.map((post) => (
           <li key={post._id} className="article-card">
-            {post.mainImage?.asset?.url && (
-              <img
-                src={post.mainImage.asset.url}
-                alt={post.mainImage.alt || post.title}
-                className="main-image"
-              />
-            )}
-            <div className="content">
-              <h2>{post.title}</h2>
-              {post.publishedAt && (
-                <p>
-                  {new Intl.DateTimeFormat('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  }).format(new Date(post.publishedAt))}
-                </p>
-              )}
-              <Link href={`/artikler/${post.slug.current}`}>Les mer</Link>
-            </div>
+            <Link href={`/artikler/${post.slug.current}`}>
+              <div className="card-link">
+                {post.mainImage?.asset?.url && (
+                  <img
+                    src={post.mainImage.asset.url}
+                    alt={post.mainImage.alt || post.title}
+                    className="main-image"
+                  />
+                )}
+                <div className="content">
+                  <h2>{post.title}</h2>
+                  {post.publishedAt && (
+                    <p>
+                      {new Intl.DateTimeFormat('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                      }).format(new Date(post.publishedAt))}
+                    </p>
+                  )}
+                </div>
+              </div>
+            </Link>
           </li>
         ))}
       </ul>
